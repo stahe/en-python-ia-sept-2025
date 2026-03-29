@@ -1,20 +1,20 @@
-# Générer un script Python avec des outils d'IA
+# Generating a Python script using AI tools
 
-Ce projet a pour but de démontrer que, parfois, l'écriture de scripts algorithmiques complexes peut être automatisée grâce aux outils d'Intelligence Artificielle (IA).
+The aim of this project is to demonstrate that, in some cases, the writing of complex algorithmic scripts can be automated using Artificial Intelligence (AI) tools.
 
-## Contexte du projet
+## Project background
 
-Nous reprenons ici un problème initialement exposé en 2020 dans le cours "Python Flask 2020" disponible sur Developpez.com.
+Here, we revisit a problem initially presented in 2020 in the “Python Flask 2020” course available on Developpez.com.
 
-Ce cours se basait sur un **calcul d’impôt simplifié pour l’année 2019**. À l'époque, un script Python avait été développé manuellement pour résoudre ce problème, puis décliné en 18 versions différentes pour finalement porter ce calcul dans une application web MVC.
+This course was based on a **simplified tax calculation for the year 2019**. At the time, a Python script was developed manually to solve this problem, then adapted into 18 different versions, before finally being implemented in an MVC web application.
 
-## Objectif
+## Objective
 
-L'objectif est de montrer que le script initial de calcul de l’impôt peut, en septembre 2025, être généré directement par certaines IA génératives, mais pas toutes.
+The objective is to demonstrate that, in September 2025, the initial tax calculation script can be generated directly by certain generative AI systems, but not all of them.
 
-## Outils d'IA testés
+## AI tools tested
 
-Les sept outils suivants ont été utilisés pour cette expérimentation (septembre 2025) :
+The following seven tools were used for this experiment (September 2025):
 
 * ChatGPT
 * Grok
@@ -24,11 +24,11 @@ Les sept outils suivants ont été utilisés pour cette expérimentation (septem
 * ClaudeAI
 * Perplexity
 
-## Accéder au site
+## Access the site
 
-Le compte-rendu complet et le site généré sont accessibles à l'adresse suivante :
-👉 **[https://stahe.github.io/python-ia-sept-2025/](https://stahe.github.io/python-ia-sept-2025/)**
+The full report and the generated site are available at the following address:
+👉 **[https://stahe.github.io/en-python-ia-sept-2025/](https://stahe.github.io/en-python-ia-sept-2025/)**
 
-## Références
+## References
 
-* **Cours original :** [Tutoriels et cours Python Flask 2020](https://tahe.developpez.com/tutoriels-cours/python-flask-2020/)
+* **Original course:** [Python Flask Tutorials and Courses 2020](https://tahe.developpez.com/tutoriels-cours/python-flask-2020/)
