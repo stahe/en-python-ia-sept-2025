@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://stahe.github.io/en-python-ia-sept-2025/solving-the-three-problems-with-google-gemini.html">
       
       
-        <link rel="prev" href="setting-up-a-development-environment.html">
+        <link rel="prev" href="setting-up-a-work-environment.html">
       
       
-        <link rel="next" href="solving-the-three-problems-with-chatgpt.html">
+        <link rel="next" href="resolving-the-three-problems-with-chatgpt.html">
       
       
         
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -357,14 +359,14 @@
   
   
     <li class="md-nav__item">
-      <a href="setting-up-a-development-environment.html" class="md-nav__link">
+      <a href="setting-up-a-work-environment.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    3. Setting up a development environment
+    3. Setting up a work environment
   
 
     
@@ -534,10 +536,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4315-calculation-of-net-tax" class="md-nav__link">
+  <a href="#4315-calculation-of-tax-net" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.3.1.5. Calculation of net tax
+        4.3.1.5. Calculation of tax net
       
     </span>
   </a>
@@ -652,14 +654,14 @@
   
   
     <li class="md-nav__item">
-      <a href="solving-the-three-problems-with-chatgpt.html" class="md-nav__link">
+      <a href="resolving-the-three-problems-with-chatgpt.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Solving the Three Problems with ChatGPT
+    5. Resolving the three problems with ChatGPT
   
 
     
@@ -679,14 +681,14 @@
   
   
     <li class="md-nav__item">
-      <a href="resolving-the-three-issues-with-grok.html" class="md-nav__link">
+      <a href="solving-the-three-problems-with-grok.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Resolving the three issues with Grok
+    6. Solving the three problems with Grok
   
 
     
@@ -851,79 +853,79 @@
 
 
 
-<p><a id="resolutiondestrois"></a></p>
+<p><span id="resolutiondestrois" name="resolutiondestrois" class="odt-bookmark-anchor"></span></p>
 <h1 id="4-solving-the-three-problems-with-google-gemini">4. <span style="color: #0f4761">Solving the three problems with Google Gemini</span></h1>
-<p>We will provide screenshots of the three Gemini sessions that were used to solve the three problems posed. We will go into considerable detail. Once this is done, we will not repeat the process for the other AIs tested. They operate in a similar manner. We will only provide the most notable details.</p>
+<p>We will provide screenshots of the three Gemini sessions that resolved the three problems posed. We will go into considerable detail. Once this is done, we will not repeat the process for the other IA instances tested. They operate in a similar manner. We will only provide the most notable details.</p>
 <h2 id="41-introduction">4.1. <span style="color: #0f4761">Introduction</span></h2>
-<p>We refer back to the first Gemini screenshot provided earlier:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000037B000004744C75919A.png" width="267" height="342" style="display:inline-block; margin:4px;width:7.07cm;height:9.045cm;" class="odt-zoomable" data-zoom-src="images/100000000000037B000004744C75919A.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Here is a reminder of the first Gemini screenshot provided earlier:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000037B000004744C75919A.png" width="267" height="342" style="display:inline-block; margin:4px;width:7.07cm;height:9.045cm;" class="odt-zoomable" data-zoom-src="images/100000000000037B000004744C75919A.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
   <li>In [1], the Gemini URL;
   </li>
-  <li>In [2], the version of Gemini used;
+  <li>In [2], the version version of Gemini used;
   </li>
   <li>In [3-5], the three problems posed to Gemini;
   </li>
 </ul>
 
-<p>Gemini is a Google product available at the URL [https://gemini.google.com/]. To view a history of your question-and-answer sessions as shown above, you must create an account. Furthermore, like all the other AIs tested, Gemini limits the number of questions you can ask and the number of files you can upload. When this limit is reached, the session ends, and you’re offered the option to continue it later. Since it’s quite frustrating to stop in the middle of a session, I signed up for a subscription. Fortunately, the first month of the Gemini subscription is free. I did the same with the other AIs that had these limits, namely ChatGPT, MistralAI, and ClaudeAI. I signed up for a one-month subscription, but in those cases, the first month was paid. I didn’t encounter any limits with Grok. DeepSeek doesn’t announce any limits but sometimes responds with [Server busy] and interrupts the session. That’s essentially setting limits without saying so.</p>
-<p>From here on, I’ll refer to question-and-answer sessions simply as “sessions.” AIs most often use the English term <strong>“chat</strong>” or “conversation.”</p>
-<p>Gemini’s interface for asking a question is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000062900000148B5DD8E2C.png" width="393" height="82" style="display:inline-block; margin:4px;width:10.389cm;height:2.161cm;" class="odt-zoomable" data-zoom-src="images/100000000000062900000148B5DD8E2C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000240000001A0C12DA836.png" width="173" height="125" style="display:inline-block; margin:4px;width:4.57cm;height:3.3cm;" class="odt-zoomable" data-zoom-src="images/1000000000000240000001A0C12DA836.png" /></td></tr></table>
+<p>Gemini is a Google product available at URL [https://gemini.google.com/]. To view a history of your question-and-answer sessions as shown above, you need to create an account. Furthermore, like all the other IA services I tested, Gemini limits the number of questions you can ask and the number of files you can upload. When this limit is reached, the session ends and you are offered the option to continue it later. Since it’s quite frustrating to stop in the middle of a session, I signed up for a subscription. Fortunately, the first month of the Gemini subscription is free. I did the same with the other IA tools that had these limits, namely ChatGPT, MistralAI, and ClaudeAI. I signed up for a one-month subscription, but in this case, the first month was not free. I haven’t encountered any limits with Grok. DeepSeek doesn’t mention any limits but sometimes responds with [Server busy] and ends the session. That’s essentially setting limits without saying so.</p>
+<p>From here on, I’ll refer to question-and-answer sessions simply as “sessions.” IA most often uses the English term <strong>“chat</strong>” or “conversation.”</p>
+<p>The Gemini interface for asking a question is as follows:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000062900000148B5DD8E2C.png" width="393" height="82" style="display:inline-block; margin:4px;width:10.389cm;height:2.161cm;" class="odt-zoomable" data-zoom-src="images/100000000000062900000148B5DD8E2C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000240000001A0C12DA836.png" width="173" height="125" style="display:inline-block; margin:4px;width:4.57cm;height:3.3cm;" class="odt-zoomable" data-zoom-src="images/1000000000000240000001A0C12DA836.png" /></td></tr></table>
 
 <ul>
   <li>In [1], your question;
   </li>
-  <li>In [2], the icon that launches the AI to calculate the response;
+  <li>In [2], the icon that launches the IA to calculate the answer;
   </li>
   <li>In [3-4], you can attach files;
   </li>
 </ul>
 <h2 id="42-problem-1">4.2. <span style="color: #0f4761">Problem 1</span></h2>
 <p>The session for Problem 1 is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000665000002F6537BB492.png" width="491" height="227" style="display:inline-block; margin:4px;width:12.98cm;height:6.01cm;" class="odt-zoomable" data-zoom-src="images/1000000000000665000002F6537BB492.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000665000002F6537BB492.png" width="491" height="227" style="display:inline-block; margin:4px;width:12.98cm;height:6.01cm;" class="odt-zoomable" data-zoom-src="images/1000000000000665000002F6537BB492.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
   <li>In [1], the question;
   </li>
-  <li>In [2], the beginning of Gemini’s answer;
+  <li>In [2], the beginning of Gemini’s response;
   </li>
 </ul>
 
 <p>The rest of the answer is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005C500000228ABB13993.png" width="443" height="166" style="display:inline-block; margin:4px;width:11.719cm;height:4.38cm;" class="odt-zoomable" data-zoom-src="images/10000000000005C500000228ABB13993.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005C500000228ABB13993.png" width="443" height="166" style="display:inline-block; margin:4px;width:11.719cm;height:4.38cm;" class="odt-zoomable" data-zoom-src="images/10000000000005C500000228ABB13993.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000600000002E7BCE3D4E6.png" width="460" height="222" style="display:inline-block; margin:4px;width:12.16cm;height:5.883cm;" class="odt-zoomable" data-zoom-src="images/1000000000000600000002E7BCE3D4E6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000600000002E7BCE3D4E6.png" width="460" height="222" style="display:inline-block; margin:4px;width:12.16cm;height:5.883cm;" class="odt-zoomable" data-zoom-src="images/1000000000000600000002E7BCE3D4E6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005A7000001A7DA4C6201.png" width="432" height="126" style="display:inline-block; margin:4px;width:11.43cm;height:3.341cm;" class="odt-zoomable" data-zoom-src="images/10000000000005A7000001A7DA4C6201.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005A7000001A7DA4C6201.png" width="432" height="126" style="display:inline-block; margin:4px;width:11.43cm;height:3.341cm;" class="odt-zoomable" data-zoom-src="images/10000000000005A7000001A7DA4C6201.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005E400000296F7B60621.png" width="454" height="199" style="display:inline-block; margin:4px;width:12cm;height:5.269cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E400000296F7B60621.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005E400000296F7B60621.png" width="454" height="199" style="display:inline-block; margin:4px;width:12cm;height:5.269cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E400000296F7B60621.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>The answer is correct. The other five AIs will also give the correct answer in a similar form.</p>
+<p>The answer is correct. The other five—IA—will also yield the correct answer in a similar form.</p>
 <h2 id="43-problem-2">4.3. <span style="color: #0f4761">Problem 2</span></h2>
 <h3 id="431-introduction">4.3.1. <span style="color: #0f4761">Introduction</span></h3>
-<p>Here we recall the initial problem from the [<a href="https://tahe.developpez.com/tutoriels-cours/python-flask-2020/"><u><span style="color: #0563c1">python3-flask-2020</span></u></a>] course. This is a text given to students in a tutorial.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000010000031C0000030A7A66B712.png" width="497" height="486" style="display:inline-block; margin:4px;width:13.152cm;height:12.853cm;" class="odt-zoomable" data-zoom-src="images/100000010000031C0000030A7A66B712.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Here we recall the initial problem from the [python3-flask-2020] course. It is a text given to students in TD.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000010000031C0000030A7A66B712.png" width="497" height="486" style="display:inline-block; margin:4px;width:13.152cm;height:12.853cm;" class="odt-zoomable" data-zoom-src="images/100000010000031C0000030A7A66B712.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><a id="leprobleme"></a>The table above allows us to calculate the tax in the simplified case of a taxpayer who has only their salary to declare. As indicated in note (1), the tax calculated in this way is the tax before three mechanisms:</p>
+<p><span id="leprobleme" name="leprobleme" class="odt-bookmark-anchor"></span>The table above allows us to calculate the tax in the simplified case of a taxpayer who has only their salary to report. As indicated in note (1), the tax calculated in this way is the tax before three mechanisms:</p>
 <ul>
-  <li>The capping of the family quotient, which applies to high incomes;
+  <li>The family quotient cap, which applies to high incomes;
   </li>
   <li>The tax credit and tax reduction that apply to low-income earners;
   </li>
 </ul>
 
-<p>Thus, the tax calculation involves the following steps <strong>[http://impotsurlerevenu.org/comprendre-le-calcul-de-l-impot/1217-calcul-de-l-impot-2019.php]</strong>:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000001000003180000010D0C81DCD5.png" width="497" height="169" style="display:inline-block; margin:4px;width:13.139cm;height:4.463cm;" class="odt-zoomable" data-zoom-src="images/10000001000003180000010D0C81DCD5.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Thus, the tax calculation includes the following steps <strong>[http://impotsurlerevenu.org/comprendre-le-calcul-de-l-impot/1217-calcul-de-l-impot-2019.php]</strong>:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000001000003180000010D0C81DCD5.png" width="497" height="169" style="display:inline-block; margin:4px;width:13.139cm;height:4.463cm;" class="odt-zoomable" data-zoom-src="images/10000001000003180000010D0C81DCD5.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>We propose to write a program to calculate a taxpayer’s tax liability for 2019 in the simplified case of a taxpayer who has only their salary to report.</p>
-<p><a id="calculdelimpot"></a>
-<a id="refheadingtoc185625971629160"></a>
-<a id="toc48548964"></a></p>
+<p>We propose to write a program to calculate a taxpayer’s tax for 2019 in the simplified case of a taxpayer who has only their salary to report.</p>
+<p><span id="toc48548964" name="toc48548964" class="odt-bookmark-anchor"></span>
+<span id="refheadingtoc185625971629160" name="refheadingtoc185625971629160" class="odt-bookmark-anchor"></span>
+<span id="calculdelimpot" name="calculdelimpot" class="odt-bookmark-anchor"></span></p>
 <h4 id="4311-calculation-of-gross-tax">4.3.1.1. <span style="color: #0f4761">Calculation of Gross Tax</span></h4>
-<p>Gross tax can be calculated as follows:</p>
-<p>First, calculate the taxpayer’s number of shares:</p>
+<p>The gross tax can be calculated as follows:</p>
+<p>First, we calculate the taxpayer’s number of shares:</p>
 <ul>
   <li>Each parent contributes 1 share;
   </li>
@@ -935,21 +937,21 @@
 
 <p>The number of shares is therefore:</p>
 <ul>
-  <li>nbParts=1+nbChildren*0.5+(nbChildren-2)*0.5 if the employee is unmarried;
+  <li>nbParts=1+nbEnfants*0.5+(numberOfChildren-2)*0.5 if the employee is unmarried;
   </li>
-  <li>nbParts=2+nbChildren*0.5+(nbChildren-2)*0.5 if they are married;
+  <li>nbParts = 2 + nbChildren * 0.5 + (nbChildren - 2) * 0.5 if he is married;
   </li>
-  <li>where <i>nbChildren </i>is the number of children;
+  <li>where <i>nbEnfants </i>is the number of children;
   </li>
   <li>We calculate the taxable income <b>R = 0.9 * S, </b>where <i>S </i>is the annual salary;
   </li>
-  <li>The family quotient <b>QF</b> is calculated <b>as QF = R / nbParts;</b>
+  <li>The family quotient <b>QF</b> is calculated as <b>nbParts/R;</b>
   </li>
   <li>We calculate the gross tax <b>I </b>based on the following data (2019):
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">9964</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">27,519</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0.14</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">1,394.96</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">73,779</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0.3</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">5,798</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">156,244</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0.4</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">13,913.69</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0.45</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">20163.45</div></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">9964</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">27,519</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0.14</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">1,394.96</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">73,779</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0.3</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">5798</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">156,244</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0.4</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">13,913.69</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0.45</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">20163.45</div></td></tr></table>
 
 <p>Each row has 3 fields: <em>field1</em>, <em>field2</em>, <em>field3</em>. To calculate tax I, we find the first row where <em>QF &lt;= field1</em> and take the values from that row. For example, for a married employee with two children and an annual salary S of <strong>50,000</strong> euros:</p>
 <p>Taxable income: R=0.9*S=45,000</p>
@@ -958,49 +960,49 @@
 <p>The first row where QF &lt;= field1 is as follows:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>    27519    0.14    1394.96
 </code></pre></div></td></tr></table></div>
-<p>Tax <em>I</em> is then equal to <strong>0.14*R – 1394.</strong>96*numberOfShares=<strong>[0.14*45000-1394.96*3]=2115</strong>. The tax is rounded down to the nearest euro.</p>
-<p>If the condition <em>QF &lt;= field1</em> holds on the first line, then the tax is zero.</p>
-<p>If QF is such that the condition <em>QF &lt;= field1</em> is never satisfied, then the coefficients from the last line are used. Here:</p>
+<p>Tax <em>I</em> is then equal to <strong>0.14*R – 1394.96*nbParts=[0,14*45000-1394,96*3]=2115</strong>. The tax is rounded down to the nearest euro.</p>
+<p>If the relationship <em>QF &lt;= field1</em> holds from the first line onward, then the tax is zero.</p>
+<p>If QF is such that the condition <em>QF&lt;=field1</em> is never satisfied, then the coefficients from the last line are used. Here:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>    0    0.45    20163.45
 </code></pre></div></td></tr></table></div>
-<p>which gives the gross tax <strong>I</strong> = <strong>0.45*R – 20163.45*nbParts</strong>.</p>
-<p><a id="plafonnementduquotient"></a>
-<a id="refheadingtoc1594583098701287"></a>
-<a id="toc48548965"></a></p>
+<p>which gives the gross tax <strong>I = 0.45 * R – 20,163.45 * nbParts</strong>.</p>
+<p><span id="toc48548965" name="toc48548965" class="odt-bookmark-anchor"></span>
+<span id="refheadingtoc1594583098701287" name="refheadingtoc1594583098701287" class="odt-bookmark-anchor"></span>
+<span id="plafonnementduquotient" name="plafonnementduquotient" class="odt-bookmark-anchor"></span></p>
 <h4 id="4312-family-quotient-cap">4.3.1.2. <span style="color: #0f4761">Family Quotient Cap</span></h4>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000010000032A0000015B9ADBFD17.png" width="415" height="178" style="display:inline-block; margin:4px;width:10.97cm;height:4.699cm;" class="odt-zoomable" data-zoom-src="images/100000010000032A0000015B9ADBFD17.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000010000032A0000015B9ADBFD17.png" width="415" height="178" style="display:inline-block; margin:4px;width:10.97cm;height:4.699cm;" class="odt-zoomable" data-zoom-src="images/100000010000032A0000015B9ADBFD17.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>To determine whether the family quotient (QF) cap applies, we recalculate the gross tax without the children. Again, for the married employee with two children and an annual salary S of <strong>50,000</strong> euros:</p>
-<p>Taxable income: R = 0.9 * S = 45,000</p>
+<p>To determine whether the family quotient cap QF applies, we recalculate the gross tax without the children. Again, for the married employee with two children and an annual salary S of <strong>50,000</strong> euros:</p>
+<p>Taxable income: R=0.9*S=45,000</p>
 <p>Number of shares: nbParts=2 (children are no longer counted)</p>
-<p>Family quotient: QF = 45,000 / 2 = 22,500</p>
+<p>Family quotient: QF=45,000/2=22,500</p>
 <p>The first line where QF &lt;= field1 is as follows:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-2" name="__codelineno-2-2"></a>    27519    0.14    1394.96
 </code></pre></div></td></tr></table></div>
-<p>Tax <em>I</em> is then equal to <strong>0.14*R – 1394.</strong>96*number of shares <strong>= [0.14*45,000 – 1394.96*2] = 3,510</strong>.</p>
-<p>Maximum child-related benefit: 1551 * 2 = 3102 euros</p>
-<p>Minimum tax: 3,510 – 3,102 = 408 euros</p>
-<p>The gross tax with 2 shares, already calculated in the previous paragraph (2,115 euros), is greater than the minimum tax (408 euros), so the family cap does not apply here.</p>
+<p>Tax <em>I</em> is then equal to <strong>0.14*R – 1394.96*nbParts=[0,14*45000-1394,96*2]=3510</strong>.</p>
+<p>Maximum child-related benefit: 1551 * 2  = 3102 euros</p>
+<p>Minimum tax: 3510 – 3102 = 408 euros</p>
+<p>The gross tax with 2 tax brackets, already calculated in the previous paragraph (2,115 euros), is greater than the minimum tax (408 euros), so the family cap does not apply here.</p>
 <p>In general, the gross tax is <strong>greater than (tax1, tax2)</strong> where:</p>
 <ul>
-  <li><b>[tax1]</b>: is the gross tax calculated including children;
+  <li><b>[impôt1]</b>: is the gross tax calculated with children;
   </li>
-  <li><b>[tax2]</b>: is the gross tax calculated without children and reduced by the maximum credit (here 1,551 euros per half-share) related to children;
+  <li><b>[impôt2]</b>: is the gross tax calculated without children and reduced by the maximum credit (here 1,551 euros per half-share) related to children;
   </li>
 </ul>
 
-<p><a id="calculdela"></a>
-<a id="refheadingtoc185627971629160"></a>
-<a id="toc48548966"></a></p>
+<p><span id="toc48548966" name="toc48548966" class="odt-bookmark-anchor"></span>
+<span id="refheadingtoc185627971629160" name="refheadingtoc185627971629160" class="odt-bookmark-anchor"></span>
+<span id="calculdela" name="calculdela" class="odt-bookmark-anchor"></span></p>
 <h4 id="4313-calculation-of-the-tax-reduction">4.3.1.3. <span style="color: #0f4761">Calculation of the tax reduction</span></h4>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000010000032A0000011298E98FA1.png" width="524" height="177" style="display:inline-block; margin:4px;width:13.852cm;height:4.685cm;" class="odt-zoomable" data-zoom-src="images/100000010000032A0000011298E98FA1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000010000032A0000011298E98FA1.png" width="524" height="177" style="display:inline-block; margin:4px;width:13.852cm;height:4.685cm;" class="odt-zoomable" data-zoom-src="images/100000010000032A0000011298E98FA1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Still for the married employee with two children and an annual salary S of <strong>50,000</strong> euros:</p>
-<p>The gross tax (2,115 euros) from the previous step is less than 2,627 euros for a couple (1,595 euros for a single person): the tax reduction therefore applies. It is calculated as follows:</p>
+<p>The gross tax (€2,115) from the previous step is less than €2,627 for a couple (€1,595 for a single person): the tax reduction therefore applies. It is calculated as follows:</p>
 <p>tax credit = threshold (couple = 1,970 / single = 1,196) – 0.75 * gross tax</p>
 <p>discount = 1,970 – 0.75 * 2,115 = 383.75, rounded to <strong>384</strong> euros.</p>
 <p><strong>New</strong> gross <strong>tax</strong> = 2,115 – 384 = <strong>1,731</strong> euros</p>
-<p>Two rules must be observed when calculating the discount (some AI tools have stumbled on this issue):</p>
+<p>Two rules must be observed when calculating the discount (some IA tools have run into issues with this):</p>
 <ul>
   <li>The discount cannot be negative;
   </li>
@@ -1008,15 +1010,15 @@
   </li>
 </ul>
 
-<p><a id="calculdela1"></a>
-<a id="refheadingtoc185629971629160"></a>
-<a id="toc48548967"></a></p>
+<p><span id="toc48548967" name="toc48548967" class="odt-bookmark-anchor"></span>
+<span id="refheadingtoc185629971629160" name="refheadingtoc185629971629160" class="odt-bookmark-anchor"></span>
+<span id="calculdela1" name="calculdela1" class="odt-bookmark-anchor"></span></p>
 <h4 id="4314-calculation-of-the-tax-reduction">4.3.1.4. <span style="color: #0f4761">Calculation of the tax reduction</span></h4>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000010000032A0000011677A64931.png" width="523" height="179" style="display:inline-block; margin:4px;width:13.831cm;height:4.747cm;" class="odt-zoomable" data-zoom-src="images/100000010000032A0000011677A64931.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000010000032A0000011677A64931.png" width="523" height="179" style="display:inline-block; margin:4px;width:13.831cm;height:4.747cm;" class="odt-zoomable" data-zoom-src="images/100000010000032A0000011677A64931.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Below a certain threshold, a 20% reduction is applied to the gross tax resulting from the previous calculations. In 2019, the thresholds are as follows:</p>
 <ul>
-  <li>Single: 21,037 euros;
+  <li>single: 21,037 euros;
   </li>
   <li>couple: 42,074 euros; (the figure 37,968 used in the example above appears to be incorrect);
   </li>
@@ -1032,18 +1034,18 @@
   <li>The taxpayer’s gross tax becomes: 1,731 – 347 = 1,<b>384 </b>euros;
   </li>
 </ul>
-<p><a id="refheadingtoc185631971629160"></a>
-<a id="toc48548968"></a></p>
-<h4 id="4315-calculation-of-net-tax">4.3.1.5. <span style="color: #0f4761">Calculation of net tax</span></h4>
+<p><span id="toc48548968" name="toc48548968" class="odt-bookmark-anchor"></span>
+<span id="refheadingtoc185631971629160" name="refheadingtoc185631971629160" class="odt-bookmark-anchor"></span></p>
+<h4 id="4315-calculation-of-tax-net">4.3.1.5. <span style="color: #0f4761">Calculation of tax net</span></h4>
 <p>Our calculation ends here: the net tax due will be <strong>1,384</strong> euros. In reality, the taxpayer may be eligible for other deductions, particularly for donations to public or general interest organizations.</p>
-<p><a id="casdeshauts"></a>
-<a id="refheadingtoc185633971629160"></a>
-<a id="toc48548969"></a></p>
+<p><span id="toc48548969" name="toc48548969" class="odt-bookmark-anchor"></span>
+<span id="refheadingtoc185633971629160" name="refheadingtoc185633971629160" class="odt-bookmark-anchor"></span>
+<span id="casdeshauts" name="casdeshauts" class="odt-bookmark-anchor"></span></p>
 <h4 id="4316-high-income-cases">4.3.1.6. <span style="color: #0f4761">High-Income Cases</span></h4>
 <p>Our previous example applies to the majority of employees. However, the tax calculation differs for high-income earners.</p>
-<p><a id="refheadingtoc185635971629160"></a></p>
+<p><span id="refheadingtoc185635971629160" name="refheadingtoc185635971629160" class="odt-bookmark-anchor"></span></p>
 <h5 id="43161-cap-on-the-10-reduction-on-annual-income">4.3.1.6.1. <span style="color: #0f4761">Cap on the 10% reduction on annual income</span></h5>
-<p>In most cases, taxable income is calculated using the formula: R = 0.9 × S, where S is the annual salary. This is known as the 10% reduction. This reduction is capped. In 2019:</p>
+<p>In most cases, taxable income is calculated using the formula: R = 0.9 × S, where S is the annual salary. This is known as the 10% reduction. This reduction is subject to a cap. In 2019:</p>
 <ul>
   <li>It cannot exceed 12,502 euros;
   </li>
@@ -1056,17 +1058,17 @@
   <li>The 10% reduction is 200,000 euros &gt; 12,502 euros. It is therefore capped at 12,502 euros;
   </li>
 </ul>
-<p><a id="refheadingtoc185637971629160"></a></p>
+<p><span id="refheadingtoc185637971629160" name="refheadingtoc185637971629160" class="odt-bookmark-anchor"></span></p>
 <h5 id="43162-family-quotient-cap">4.3.1.6.2. <span style="color: #0f4761">Family Quotient Cap</span></h5>
 <p>Let’s consider a case where the family cap described in the section <a href="#plafonnementduquotient"><u><span style="color: #0563c1">|Family Quotient</span></u></a> Cap| applies. Let’s take the case of a couple with three children and an annual income of 100,000 euros. Let’s go through the calculation steps again:</p>
 <ul>
   <li>The 10% deduction is 100,000 euros &lt; 12,502 euros. The taxable income <b>R </b>is therefore 100,000 - 10,000 = 90,000 euros;
   </li>
-  <li>The couple has <b>nbP</b>arts = 2 + 0.<b>5</b> × 2 + 1 =<b> 4 </b>shares;
+  <li>The couple has <b>nbParts </b>= 2 + 0.5 × 2 + 1 =<b> 4 </b>shares;
   </li>
-  <li>His family quotient is therefore QF = R / <b>nbParts = 90,000</b> / 4 = 22,<b>500 </b>euros;
+  <li>Their family quotient is therefore QF = R / <b>nbParts</b> = 90,000 /<b> 4</b> = 22,500 euros;
   </li>
-  <li>His gross tax <b>I1 with </b>children is I1 = 0.14 × 90,000 – 1,394.96 × 4 = 7,020 euros;
+  <li>Their gross tax <b>I1 with </b>children is I1 = 0.14 × 90,000 – 1,394.96 × 4 = 7,020 euros;
   </li>
   <li>His gross tax <b>I2 without </b>children:
     <ul>
@@ -1085,18 +1087,18 @@
 </ul>
 
 <p>This couple will receive neither a tax credit nor a reduction, and their final tax will be <strong>9,200</strong> euros.</p>
-<p><a id="chiffresofficiels"></a>
-<a id="refheadingtoc185639971629160"></a>
-<a id="toc48548970"></a></p>
+<p><span id="toc48548970" name="toc48548970" class="odt-bookmark-anchor"></span>
+<span id="refheadingtoc185639971629160" name="refheadingtoc185639971629160" class="odt-bookmark-anchor"></span>
+<span id="chiffresofficiels" name="chiffresofficiels" class="odt-bookmark-anchor"></span></p>
 <h4 id="4317-official-figures">4.3.1.7. <span style="color: #0f4761">Official figures</span></h4>
-<p>Tax calculation is complex. Throughout this document, tests will be conducted using the following examples. The results are from the tax administration’s simulator |<a href="https://www3.impots.gouv.fr/simulateur/calcul_impot/2019/simplifie/index.htm"><u><span style="color: #0563c1">https://www3.impots.gouv.fr/simulateur/calcul_impot/2019/simplifie/index.htm</span></u></a>|:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Taxpayer</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Official results</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Results from the document’s algorithm</b></div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Couple with 2 children and an annual income of 55,555 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = 2,<b>815 </b>euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = 2,<b>814 </b>euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Couple with 2 children and an annual income of 50,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = 1,<b>385 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit = €384</div><div style="margin:0 0 0.5em 0">Reduction = 346 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = €1,<b>384</b></div><div style="margin:0 0 0.5em 0">Discount = 384 euros</div><div style="margin:0 0 0.5em 0">Credit=347 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Couple with 3 children and an annual income of 50,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax =<b> 0 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit = 720 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax =<b> 0 </b>euros</div><div style="margin:0 0 0.5em 0">Discount=720 euros</div><div style="margin:0 0 0.5em 0">Deduction=0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Single with 2 children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = 19,<b>884 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = €19,<b>884</b></div><div style="margin:0 0 0.5em 0">Surcharge = 4,480 euros</div><div style="margin:0 0 0.5em 0">Discount=0 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Single with 3 children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = €16,<b>782</b></div><div style="margin:0 0 0.5em 0">Tax credit=0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = €16,<b>782</b></div><div style="margin:0 0 0.5em 0">Surcharge = 7,176 euros</div><div style="margin:0 0 0.5em 0">Discount=0 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Couple with 3 children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = €9,<b>200</b></div><div style="margin:0 0 0.5em 0">Tax credit=0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 30%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax =<b> 9,200 </b>euros</div><div style="margin:0 0 0.5em 0">Surcharge = 2,180 euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 30%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Couple with 5 children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = €4,<b>230</b></div><div style="margin:0 0 0.5em 0">Tax credit=0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = €4,<b>230</b></div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction=0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Single, no children, and annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = 22,<b>986 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit=0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = €22,<b>986</b></div><div style="margin:0 0 0.5em 0">Surcharge = 0 euros</div><div style="margin:0 0 0.5em 0">Discount=0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Couple with 2 children and an annual income of 30,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax =<b> 0 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit=0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 0%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax =<b> 0 </b>euros</div><div style="margin:0 0 0.5em 0">Discount=0 euros</div><div style="margin:0 0 0.5em 0">Reduction=0 euro</div><div style="margin:0 0 0.5em 0">Tax rate = 0%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Single with no children and an annual income of 200,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Tax</b> =<b> 64,211 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit=0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 45%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Tax = €64,<b>210</b></div><div style="margin:0 0 0.5em 0">Surcharge = 7,498 euros</div><div style="margin:0 0 0.5em 0">Discount=0 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 45%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">Couple with 3 children and an annual income of 200,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = €42,<b>843</b></div><div style="margin:0 0 0.5em 0">Tax credit=0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = €42,842</div><div style="margin:0 0 0.5em 0">Surcharge = 17,283 euros</div><div style="margin:0 0 0.5em 0">Discount=0 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td></tr></table>
+<p>Tax calculation is complex. Throughout this document, the tests will be performed using the following examples. The results are from the tax administration’s simulator |<a href="https://www3.impots.gouv.fr/simulateur/calcul_impot/2019/simplifie/index.htm"><u><span style="color: #0563c1">https://www3.impots.gouv.fr/simulateur/calcul_impot/2019/simplifie/index.htm</span></u></a>|:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Taxpayer</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Official Results</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Results from the document’s algorithm</b></div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Couple with 2 children and an annual income of 55,555 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = 2,<b>815 </b>euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = €2,<b>814</b></div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Couple with 2 children and an annual income of 50,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = €1,<b>385</b></div><div style="margin:0 0 0.5em 0">Tax credit = €384</div><div style="margin:0 0 0.5em 0">Reduction = €346</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = €1,<b>384</b></div><div style="margin:0 0 0.5em 0">Discount = 384 euros</div><div style="margin:0 0 0.5em 0">Credit = 347 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Couple with 3 children and an annual income of 50,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax =<b> 0 </b>euros</div><div style="margin:0 0 0.5em 0">Discount = 720 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax =<b> 0 </b>euros</div><div style="margin:0 0 0.5em 0">Discount = 720 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Single with 2 children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = 19,<b>884 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = €19,<b>884</b></div><div style="margin:0 0 0.5em 0">Surcharge = 4,480 euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Single with 3 children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax =<b> 16,782 </b>euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = €16,<b>782</b></div><div style="margin:0 0 0.5em 0">Surcharge = 7,176 euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Couple with 3 children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = €<b>9,200</b></div><div style="margin:0 0 0.5em 0">Tax credit = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 30%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = €<b>9,200</b></div><div style="margin:0 0 0.5em 0">Surcharge = 2,180 euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 30%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Couple with 5 children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = €4,<b>230</b></div><div style="margin:0 0 0.5em 0">Tax credit = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = €4,<b>230</b></div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction=0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 14%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Single with no children and an annual income of 100,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = 22,<b>986 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = €22,<b>986</b></div><div style="margin:0 0 0.5em 0">Surcharge = 0 euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Couple with 2 children and an annual income of 30,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax =<b> 0 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 0%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax =<b> 0 </b>euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction=0 euro</div><div style="margin:0 0 0.5em 0">Tax rate = 0%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Single with no children and an annual income of 200,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Tax</b> =<b> 64,211 </b>euros</div><div style="margin:0 0 0.5em 0">Tax credit = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 45%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Tax = €64,<b>210</b></div><div style="margin:0 0 0.5em 0">Surcharge = 7,498 euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 45%</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Couple with 3 children and an annual income of 200,000 euros</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = €42,<b>843</b></div><div style="margin:0 0 0.5em 0">Tax credit = 0 euros</div><div style="margin:0 0 0.5em 0">Deduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Tax</b> = €42,842</div><div style="margin:0 0 0.5em 0">Surcharge = 17,283 euros</div><div style="margin:0 0 0.5em 0">Discount = 0 euros</div><div style="margin:0 0 0.5em 0">Reduction = 0 euros</div><div style="margin:0 0 0.5em 0">Tax rate = 41%</div></td></tr></table>
 
 <p>In the example above, the “surcharge” refers to the additional amount paid by high-income earners due to two factors:</p>
 <ul>
   <li>The cap on the 10% deduction from annual income;
   </li>
-  <li>The cap on the family allowance;
+  <li>The cap on the family quotient;
   </li>
 </ul>
 
@@ -1109,17 +1111,17 @@
   </li>
 </ul>
 
-<p>We will ask the AI to perform this tax calculation.</p>
-<h3 id="432-gemini-session-configuration">4.3.2. <span style="color: #0f4761">Gemini Session Configuration</span></h3>
-<p>The question posed to Gemini is accompanied by two files:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000039A0000015F9D1AD635.png" width="277" height="105" style="display:inline-block; margin:4px;width:7.331cm;height:2.79cm;" class="odt-zoomable" data-zoom-src="images/100000000000039A0000015F9D1AD635.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>We will ask IA to perform this tax calculation.</p>
+<h3 id="432-gemini-session-configuration">4.3.2. <span style="color: #4f81bd"><span style="color: #0f4761">Gemini Session Configuration</span></span></h3>
+<p>The query submitted to Gemini is accompanied by two files:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000039A0000015F9D1AD635.png" width="277" height="105" style="display:inline-block; margin:4px;width:7.331cm;height:2.79cm;" class="odt-zoomable" data-zoom-src="images/100000000000039A0000015F9D1AD635.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
-  <li>In [1], the calculation just detailed has been put into a PDF that is provided to Gemini. Gemini will find there the exact rules for the simplified calculation of the 2019 tax on 2018 income;
+  <li>In [1], the calculation just described has been placed in a PDF file, which is provided to Gemini. Gemini will find there the exact rules for the simplified calculation of the 2019 tax on 2018 income;
   </li>
   <li>In [2], our instructions;
   </li>
-  <li>In [3], the command to launch the AI;
+  <li>In [3] to launch IA;
   </li>
 </ul>
 
@@ -1268,45 +1270,45 @@
 <a id="__codelineno-3-71" name="__codelineno-3-71"></a>10 - si c&#39;est possible, indique le temps en minutes et secondes que tu as mis pour produire
 <a id="__codelineno-3-72" name="__codelineno-3-72"></a>le script demandé.
 </code></pre></div></td></tr></table></div>
-<p>These instructions are the result of numerous questions asked of Gemini. It quickly becomes clear that the AI needs to be very tightly guided if we want to get what we want. It was because of all this trial and error that the Gemini session was ultimately terminated for exceeding limits. Let’s examine the rest of these instructions:</p>
+<p>These instructions are the result of numerous questions asked of Gemini. Quite quickly, one realizes that the IA must be very specific if we want to get what we want. It was because of all this trial and error that the Gemini session was ultimately terminated for exceeding limits. Let’s examine the rest of these instructions:</p>
 <ul>
-  <li>Line 1: We specify that the conversation should be in French. This instruction is for DeepSeek, which tended to speak English;
+  <li>Line 1: we specify that the conversation should be in French. This instruction is for DeepSeek, which tended to speak English;
   </li>
   <li>Line 3: what we want;
   </li>
-  <li>Line 5: We tell the AI to use the PDF we provided;
+  <li>Line 5: we tell IA to use the PDF we gave him;
   </li>
-  <li>Lines 7–14: a number of useful tips, especially for Problem 3 without the PDF. Several AIs got lost in the tax calculation;
+  <li>Lines 7–14: a number of useful tips, especially for Problem 3 without PDF. Several IAs were lost in the tax calculation;
   </li>
-  <li>Lines 15–44: the 11 unit tests we want included in the generated script. Once the script is generated, we’ll run it in PyCharm and see if all 11 tests pass;
+  <li>Lines 15–44: the 11 unit tests we want to see included in the generated script. Once the script is generated, we will run it in PyCharm and see if all 11 tests pass;
   </li>
-  <li>Lines 46–53: Without these instructions, the AIs would generate unit tests seeking exact results that would fail;
+  <li>Lines 46-53: Without these instructions, IA would generate unit tests looking for exact results that would fail;
   </li>
-  <li>Lines 55–56: I tell the AI not to go online. The simplest solution is to use the PDF;
+  <li>Lines 55–56: I tell IA not to access the internet. The simplest solution is to use PDF;
   </li>
-  <li>Lines 58–59: The AI did not follow this instruction. I had to explicitly write it in a prompt when I noticed that a test had failed;
+  <li>Lines 58–59: This instruction was not followed by the IA. I was forced to write it explicitly in a question when I noticed that a test had failed;
   </li>
-  <li>Lines 61–65: I specify what type of Python script I want;
+  <li>Lines 61–65: I specify the type of Python script I want;
   </li>
-  <li>Lines 67–69: I would have preferred a link to retrieve the generated script because displaying the code on screen takes time. It turned out that most AIs cannot do this. The links provided did not work;
+  <li>Lines 67–69: I would have preferred a link to download the generated script, since displaying the code on screen takes a long time. It turned out that most IAs can’t do that. The links provided didn’t work;
   </li>
-  <li>Lines 71–72: I would have liked to know the time the AI took to answer the question. Only Gemini was able to provide this information. The other AIs either did not respond to this instruction or provided arbitrary numbers, indicating they did not understand it;
+  <li>Lines 71-72: I would have liked to know how long it took the IA to answer the question. Only Gemini was able to provide me with this information. The other IAs either did not respond to this instruction or provided arbitrary numbers, indicating that they did not understand the instruction;
   </li>
 </ul>
 <h3 id="433-geminis-response">4.3.3. <span style="color: #0f4761">Gemini’s response</span></h3>
 <p>Gemini’s first response is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000060E000002A6639786EB.png" width="465" height="203" style="display:inline-block; margin:4px;width:12.3cm;height:5.38cm;" class="odt-zoomable" data-zoom-src="images/100000000000060E000002A6639786EB.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000060E000002A6639786EB.png" width="465" height="203" style="display:inline-block; margin:4px;width:12.3cm;height:5.38cm;" class="odt-zoomable" data-zoom-src="images/100000000000060E000002A6639786EB.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
-  <li>In [1-4], Gemini provides links to the part of the PDF or text file containing the instructions it is using at a given moment;
+  <li>In [1-4], Gemini provides links to the part of the PDF or the text file of the instructions it is using at a given moment;
   </li>
 </ul>
 
 <p>The rest is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005B7000003A022E83FC3.png" width="437" height="277" style="display:inline-block; margin:4px;width:11.569cm;height:7.338cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B7000003A022E83FC3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005B7000003A022E83FC3.png" width="437" height="277" style="display:inline-block; margin:4px;width:11.569cm;height:7.338cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B7000003A022E83FC3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
-  <li>In [1], Gemini states that it successfully executed all 11 unit tests. Most AIs made this claim for both Problem 2 and Problem 3, and often when the generated script was loaded, it did not work. This claim should therefore be taken with a grain of salt. For Gemini, however, this will prove to be true; 
+  <li>In [1], Gemini claims that it successfully ran all 11 unit tests. Most of the IA files claimed this for both Problem 2 and Problem 3, and often when the generated script was loaded, it did not work. Therefore, one should be wary of this claim. For Gemini, this will turn out to be true; 
   </li>
   <li>In [2], a link that turns out not to work;
   </li>
@@ -1315,10 +1317,10 @@
 </ul>
 
 <p>So the link [2] does not work. We tell Gemini:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000408000000E183B39731.png" width="310" height="68" style="display:inline-block; margin:4px;width:8.209cm;height:1.79cm;" class="odt-zoomable" data-zoom-src="images/1000000000000408000000E183B39731.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000408000000E183B39731.png" width="310" height="68" style="display:inline-block; margin:4px;width:8.209cm;height:1.79cm;" class="odt-zoomable" data-zoom-src="images/1000000000000408000000E183B39731.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005FE000002D8C30E662C.png" width="460" height="218" style="display:inline-block; margin:4px;width:12.16cm;height:5.771cm;" class="odt-zoomable" data-zoom-src="images/10000000000005FE000002D8C30E662C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005FE000002D8C30E662C.png" width="460" height="218" style="display:inline-block; margin:4px;width:12.16cm;height:5.771cm;" class="odt-zoomable" data-zoom-src="images/10000000000005FE000002D8C30E662C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
   <li>In [1], the Python script generated by Gemini;
@@ -1326,14 +1328,14 @@
 </ul>
 
 <p>We load this script into PyCharm and run it:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001DC0000024C4F5FDCC9.png" width="143" height="176" style="display:inline-block; margin:4px;width:3.78cm;height:4.669cm;" class="odt-zoomable" data-zoom-src="images/10000000000001DC0000024C4F5FDCC9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001DC0000024C4F5FDCC9.png" width="143" height="176" style="display:inline-block; margin:4px;width:3.78cm;height:4.669cm;" class="odt-zoomable" data-zoom-src="images/10000000000001DC0000024C4F5FDCC9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
   <li>In [1], [gemini1] is the script generated by Gemini;
   </li>
 </ul>
 
-<p>When the script is run, the following compilation errors appear:</p>
+<p>When the script is executed, compilation errors appear:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-python">
 <span class="odt-code-line"><span class="odt-code-line-content">&quot;C:\Program Files\Python313\python.exe&quot; &quot;C:/Program Files/JetBrains/PyCharm 2025.2.0.1/plugins/python-ce/helpers/pycharm/_jb_unittest_runner.py&quot; --path &quot;C:\Data\st-2025\dev\python\code\python-flask-2025-cours\outils ia\chatGPT\chatGPT1.py&quot; </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">Testing started at 17:12 ...</span></span>
@@ -1372,29 +1374,29 @@
 </code></pre></div>
 
 <ul>
-  <li>Line 30, the compilation error. [cite_start] is a marker used to generate a specific type of text;
+  <li>Line 30, the compilation error. [cite_start] is a marker to generate a certain form of text;
   </li>
 </ul>
 
-<p>We put the logs above into a file [logs gemini1.txt] and give it to Gemini:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003930000019E2A3CFA50.png" width="275" height="124" style="display:inline-block; margin:4px;width:7.271cm;height:3.29cm;" class="odt-zoomable" data-zoom-src="images/10000000000003930000019E2A3CFA50.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>We put the logs above into a file named [logs gemini1.txt] and feed it to Gemini:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003930000019E2A3CFA50.png" width="275" height="124" style="display:inline-block; margin:4px;width:7.271cm;height:3.29cm;" class="odt-zoomable" data-zoom-src="images/10000000000003930000019E2A3CFA50.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response is then as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005D40000026D86628674.png" width="448" height="186" style="display:inline-block; margin:4px;width:11.85cm;height:4.932cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D40000026D86628674.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005D40000026D86628674.png" width="448" height="186" style="display:inline-block; margin:4px;width:11.85cm;height:4.932cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D40000026D86628674.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>When loaded into PyCharm, running the new script generates exactly the same error. We tell Gemini this by providing the execution logs again:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002E30000014900C5CF2E.png" width="221" height="99" style="display:inline-block; margin:4px;width:5.86cm;height:2.609cm;" class="odt-zoomable" data-zoom-src="images/10000000000002E30000014900C5CF2E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Loaded into PyCharm, running the new script generates exactly the same error. We tell Gemini this by providing the execution logs again:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002E30000014900C5CF2E.png" width="221" height="99" style="display:inline-block; margin:4px;width:5.86cm;height:2.609cm;" class="odt-zoomable" data-zoom-src="images/10000000000002E30000014900C5CF2E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000006090000030112645E4F.png" width="466" height="232" style="display:inline-block; margin:4px;width:12.321cm;height:6.133cm;" class="odt-zoomable" data-zoom-src="images/10000000000006090000030112645E4F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000006090000030112645E4F.png" width="466" height="232" style="display:inline-block; margin:4px;width:12.321cm;height:6.133cm;" class="odt-zoomable" data-zoom-src="images/10000000000006090000030112645E4F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>This time it works. All 11 unit tests pass. We tell Gemini:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000019D00000098B8DAB429.png" width="124" height="46" style="display:inline-block; margin:4px;width:3.29cm;height:1.212cm;" class="odt-zoomable" data-zoom-src="images/100000000000019D00000098B8DAB429.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000019D00000098B8DAB429.png" width="124" height="46" style="display:inline-block; margin:4px;width:3.29cm;height:1.212cm;" class="odt-zoomable" data-zoom-src="images/100000000000019D00000098B8DAB429.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>To which it replies:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005D80000019E8E44FCFE.png" width="448" height="124" style="display:inline-block; margin:4px;width:11.85cm;height:3.279cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D80000019E8E44FCFE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Which replies:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005D80000019E8E44FCFE.png" width="448" height="124" style="display:inline-block; margin:4px;width:11.85cm;height:3.279cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D80000019E8E44FCFE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>The script generated by Gemini followed the instructions given in the text file [instructionsWithPDF.txt]:</p>
+<p>The script generated by Gemini followed the instructions given in the text file [instructionsAvecPDF.txt]:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">  1</a></span>
 <span class="normal"><a href="#__codelineno-4-2">  2</a></span>
 <span class="normal"><a href="#__codelineno-4-3">  3</a></span>
@@ -1681,7 +1683,7 @@
 <span class="normal"><a href="#__codelineno-4-284">284</a></span>
 <span class="normal"><a href="#__codelineno-4-285">285</a></span>
 <span class="normal"><a href="#__codelineno-4-286">286</a></span>
-<span class="normal"><a href="#__codelineno-4-287">287</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="c1">#  -*- coding: utf-8 -*-</span>
+<span class="normal"><a href="#__codelineno-4-287">287</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="c1"># -*- coding: utf-8 -*-</span>
 <a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="sd">Script pour le calcul de l&#39;impôt 2019 sur les revenus de 2018 en France,</span>
 <a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="sd">basé sur les règles simplifiées fournies dans le document PDF.</span>
@@ -1690,15 +1692,15 @@
 <a id="__codelineno-4-7" name="__codelineno-4-7"></a><span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
 <a id="__codelineno-4-8" name="__codelineno-4-8"></a><span class="kn">import</span><span class="w"> </span><span class="nn">unittest</span>
 <a id="__codelineno-4-9" name="__codelineno-4-9"></a>
-<a id="__codelineno-4-10" name="__codelineno-4-10"></a><span class="c1">#  --- CONSTANTES DE CALCUL POUR L&#39;IMPÔT 2019 ---</span>
-<a id="__codelineno-4-11" name="__codelineno-4-11"></a><span class="c1">#  All values are taken from the PDF document supplied.</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10"></a><span class="c1"># --- CONSTANTES DE CALCUL POUR L&#39;IMPÔT 2019 ---</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11"></a><span class="c1"># All values are taken from the PDF document supplied.</span>
 <a id="__codelineno-4-12" name="__codelineno-4-12"></a>
-<a id="__codelineno-4-13" name="__codelineno-4-13"></a><span class="c1">#  Ceilings for the 10% allowance on annual income</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13"></a><span class="c1"># Ceilings for the 10% allowance on annual income</span>
 <a id="__codelineno-4-14" name="__codelineno-4-14"></a><span class="n">PLAFOND_ABATTEMENT_10_POURCENT</span> <span class="o">=</span> <span class="mf">12502.0</span>
 <a id="__codelineno-4-15" name="__codelineno-4-15"></a><span class="n">MINIMUM_ABATTEMENT_10_POURCENT</span> <span class="o">=</span> <span class="mf">437.0</span>
 <a id="__codelineno-4-16" name="__codelineno-4-16"></a>
-<a id="__codelineno-4-17" name="__codelineno-4-17"></a><span class="c1">#  2019 income tax scale</span>
-<a id="__codelineno-4-18" name="__codelineno-4-18"></a><span class="c1">#  Structure: (Maximum bracket threshold, Tax rate, Amount to be deducted per share)</span>
+<a id="__codelineno-4-17" name="__codelineno-4-17"></a><span class="c1"># 2019 income tax scale</span>
+<a id="__codelineno-4-18" name="__codelineno-4-18"></a><span class="c1"># Structure: (Maximum bracket threshold, Tax rate, Amount to be deducted per share)</span>
 <a id="__codelineno-4-19" name="__codelineno-4-19"></a><span class="n">BAREME_IMPOT_2019</span> <span class="o">=</span> <span class="p">[</span>
 <a id="__codelineno-4-20" name="__codelineno-4-20"></a>    <span class="p">{</span><span class="s2">&quot;seuil&quot;</span><span class="p">:</span> <span class="mi">9964</span><span class="p">,</span> <span class="s2">&quot;taux&quot;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span> <span class="s2">&quot;deduction_par_part&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">},</span>
 <a id="__codelineno-4-21" name="__codelineno-4-21"></a>    <span class="p">{</span><span class="s2">&quot;seuil&quot;</span><span class="p">:</span> <span class="mi">27519</span><span class="p">,</span> <span class="s2">&quot;taux&quot;</span><span class="p">:</span> <span class="mf">0.14</span><span class="p">,</span> <span class="s2">&quot;deduction_par_part&quot;</span><span class="p">:</span> <span class="mf">1394.96</span><span class="p">},</span>
@@ -1707,14 +1709,14 @@
 <a id="__codelineno-4-24" name="__codelineno-4-24"></a>    <span class="p">{</span><span class="s2">&quot;seuil&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;inf&#39;</span><span class="p">),</span> <span class="s2">&quot;taux&quot;</span><span class="p">:</span> <span class="mf">0.45</span><span class="p">,</span> <span class="s2">&quot;deduction_par_part&quot;</span><span class="p">:</span> <span class="mf">20163.45</span><span class="p">}</span>
 <a id="__codelineno-4-25" name="__codelineno-4-25"></a><span class="p">]</span>
 <a id="__codelineno-4-26" name="__codelineno-4-26"></a>
-<a id="__codelineno-4-27" name="__codelineno-4-27"></a><span class="c1">#  Family allowance ceiling</span>
-<a id="__codelineno-4-28" name="__codelineno-4-28"></a><span class="n">GAIN_MAX_DEMI_PART</span> <span class="o">=</span> <span class="mf">1551.0</span>  <span class="c1">#  Maximum gain per additional half-share</span>
+<a id="__codelineno-4-27" name="__codelineno-4-27"></a><span class="c1"># Family allowance ceiling</span>
+<a id="__codelineno-4-28" name="__codelineno-4-28"></a><span class="n">GAIN_MAX_DEMI_PART</span> <span class="o">=</span> <span class="mf">1551.0</span>  <span class="c1"># Maximum gain per additional half-share</span>
 <a id="__codelineno-4-29" name="__codelineno-4-29"></a>
-<a id="__codelineno-4-30" name="__codelineno-4-30"></a><span class="c1">#  Thresholds and amounts for the discount</span>
+<a id="__codelineno-4-30" name="__codelineno-4-30"></a><span class="c1"># Thresholds and amounts for the discount</span>
 <a id="__codelineno-4-31" name="__codelineno-4-31"></a><span class="n">SEUIL_APPLICATION_DECOTE</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;celibataire&quot;</span><span class="p">:</span> <span class="mf">1595.0</span><span class="p">,</span> <span class="s2">&quot;couple&quot;</span><span class="p">:</span> <span class="mf">2627.0</span><span class="p">}</span>
 <a id="__codelineno-4-32" name="__codelineno-4-32"></a><span class="n">SEUIL_CALCUL_DECOTE</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;celibataire&quot;</span><span class="p">:</span> <span class="mf">1196.0</span><span class="p">,</span> <span class="s2">&quot;couple&quot;</span><span class="p">:</span> <span class="mf">1970.0</span><span class="p">}</span>
 <a id="__codelineno-4-33" name="__codelineno-4-33"></a>
-<a id="__codelineno-4-34" name="__codelineno-4-34"></a><span class="c1">#  Thresholds for the 20% tax reduction</span>
+<a id="__codelineno-4-34" name="__codelineno-4-34"></a><span class="c1"># Thresholds for the 20% tax reduction</span>
 <a id="__codelineno-4-35" name="__codelineno-4-35"></a><span class="n">SEUIL_BASE_REDUCTION_20</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;celibataire&quot;</span><span class="p">:</span> <span class="mf">21037.0</span><span class="p">,</span> <span class="s2">&quot;couple&quot;</span><span class="p">:</span> <span class="mf">42074.0</span><span class="p">}</span>
 <a id="__codelineno-4-36" name="__codelineno-4-36"></a><span class="n">MAJORATION_SEUIL_REDUCTION_PAR_DEMI_PART</span> <span class="o">=</span> <span class="mf">3797.0</span>
 <a id="__codelineno-4-37" name="__codelineno-4-37"></a>
@@ -1745,10 +1747,10 @@
 <a id="__codelineno-4-62" name="__codelineno-4-62"></a><span class="sd">    L&#39;abattement est arrondi à l&#39;euro supérieur.</span>
 <a id="__codelineno-4-63" name="__codelineno-4-63"></a><span class="sd">    &quot;&quot;&quot;</span>
 <a id="__codelineno-4-64" name="__codelineno-4-64"></a>    <span class="n">abattement_calcule</span> <span class="o">=</span> <span class="n">revenus</span> <span class="o">*</span> <span class="mf">0.1</span>
-<a id="__codelineno-4-65" name="__codelineno-4-65"></a>    <span class="c1">#  The allowance is capped between a minimum and a maximum</span>
+<a id="__codelineno-4-65" name="__codelineno-4-65"></a>     <span class="c1"># The allowance is capped between a minimum and a maximum</span>
 <a id="__codelineno-4-66" name="__codelineno-4-66"></a>    <span class="n">abattement</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">PLAFOND_ABATTEMENT_10_POURCENT</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">MINIMUM_ABATTEMENT_10_POURCENT</span><span class="p">,</span> <span class="n">abattement_calcule</span><span class="p">))</span>
 <a id="__codelineno-4-67" name="__codelineno-4-67"></a>
-<a id="__codelineno-4-68" name="__codelineno-4-68"></a>    <span class="c1">#  The statement requires the abatement to be rounded up to the nearest euro</span>
+<a id="__codelineno-4-68" name="__codelineno-4-68"></a>     <span class="c1"># The statement requires the abatement to be rounded up to the nearest euro</span>
 <a id="__codelineno-4-69" name="__codelineno-4-69"></a>    <span class="n">abattement_arrondi</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">abattement</span><span class="p">)</span>
 <a id="__codelineno-4-70" name="__codelineno-4-70"></a>
 <a id="__codelineno-4-71" name="__codelineno-4-71"></a>    <span class="k">return</span> <span class="n">revenus</span> <span class="o">-</span> <span class="n">abattement_arrondi</span>
@@ -1769,11 +1771,11 @@
 <a id="__codelineno-4-86" name="__codelineno-4-86"></a>            <span class="n">tranche_applicable</span> <span class="o">=</span> <span class="n">tranche</span>
 <a id="__codelineno-4-87" name="__codelineno-4-87"></a>            <span class="k">break</span>
 <a id="__codelineno-4-88" name="__codelineno-4-88"></a>
-<a id="__codelineno-4-89" name="__codelineno-4-89"></a>    <span class="c1">#  If the QF is greater than all the thresholds, the last slice is used</span>
+<a id="__codelineno-4-89" name="__codelineno-4-89"></a>     <span class="c1"># If the QF is greater than all the thresholds, the last slice is used</span>
 <a id="__codelineno-4-90" name="__codelineno-4-90"></a>    <span class="k">if</span> <span class="n">tranche_applicable</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 <a id="__codelineno-4-91" name="__codelineno-4-91"></a>        <span class="n">tranche_applicable</span> <span class="o">=</span> <span class="n">BAREME_IMPOT_2019</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 <a id="__codelineno-4-92" name="__codelineno-4-92"></a>
-<a id="__codelineno-4-93" name="__codelineno-4-93"></a>    <span class="c1">#  Gross tax calculation formula</span>
+<a id="__codelineno-4-93" name="__codelineno-4-93"></a>     <span class="c1"># Gross tax calculation formula</span>
 <a id="__codelineno-4-94" name="__codelineno-4-94"></a>    <span class="n">impot_brut</span> <span class="o">=</span> <span class="p">(</span><span class="n">revenu_imposable</span> <span class="o">*</span> <span class="n">tranche_applicable</span><span class="p">[</span><span class="s2">&quot;taux&quot;</span><span class="p">])</span> <span class="o">-</span> <span class="p">(</span>
 <a id="__codelineno-4-95" name="__codelineno-4-95"></a>            <span class="n">tranche_applicable</span><span class="p">[</span><span class="s2">&quot;deduction_par_part&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">nombre_parts</span><span class="p">)</span>
 <a id="__codelineno-4-96" name="__codelineno-4-96"></a>
@@ -1790,18 +1792,18 @@
 <a id="__codelineno-4-107" name="__codelineno-4-107"></a>    <span class="k">if</span> <span class="n">enfants</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
 <a id="__codelineno-4-108" name="__codelineno-4-108"></a>        <span class="k">return</span> <span class="n">impot_brut_avec_enfants</span>
 <a id="__codelineno-4-109" name="__codelineno-4-109"></a>
-<a id="__codelineno-4-110" name="__codelineno-4-110"></a>    <span class="c1">#  Tax calculation without children&#39;s shares</span>
+<a id="__codelineno-4-110" name="__codelineno-4-110"></a>     <span class="c1"># Tax calculation without children&#39;s shares</span>
 <a id="__codelineno-4-111" name="__codelineno-4-111"></a>    <span class="n">parts_sans_enfants</span> <span class="o">=</span> <span class="n">calculer_nombre_parts</span><span class="p">(</span><span class="n">adultes</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
 <a id="__codelineno-4-112" name="__codelineno-4-112"></a>    <span class="n">impot_sans_enfants</span> <span class="o">=</span> <span class="n">calculer_impot_brut_base</span><span class="p">(</span><span class="n">revenu_imposable</span><span class="p">,</span> <span class="n">parts_sans_enfants</span><span class="p">)</span>
 <a id="__codelineno-4-113" name="__codelineno-4-113"></a>
-<a id="__codelineno-4-114" name="__codelineno-4-114"></a>    <span class="c1">#  Calculation of maximum child-related earnings</span>
+<a id="__codelineno-4-114" name="__codelineno-4-114"></a>     <span class="c1"># Calculation of maximum child-related earnings</span>
 <a id="__codelineno-4-115" name="__codelineno-4-115"></a>    <span class="n">parts_avec_enfants</span> <span class="o">=</span> <span class="n">calculer_nombre_parts</span><span class="p">(</span><span class="n">adultes</span><span class="p">,</span> <span class="n">enfants</span><span class="p">)</span>
 <a id="__codelineno-4-116" name="__codelineno-4-116"></a>    <span class="n">demi_parts_enfants</span> <span class="o">=</span> <span class="p">(</span><span class="n">parts_avec_enfants</span> <span class="o">-</span> <span class="n">parts_sans_enfants</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span>
 <a id="__codelineno-4-117" name="__codelineno-4-117"></a>    <span class="n">gain_maximal</span> <span class="o">=</span> <span class="n">demi_parts_enfants</span> <span class="o">*</span> <span class="n">GAIN_MAX_DEMI_PART</span>
 <a id="__codelineno-4-118" name="__codelineno-4-118"></a>
 <a id="__codelineno-4-119" name="__codelineno-4-119"></a>    <span class="n">impot_minimal_plafone</span> <span class="o">=</span> <span class="n">impot_sans_enfants</span> <span class="o">-</span> <span class="n">gain_maximal</span>
 <a id="__codelineno-4-120" name="__codelineno-4-120"></a>
-<a id="__codelineno-4-121" name="__codelineno-4-121"></a>    <span class="c1">#  The tax used is the higher of the two calculations</span>
+<a id="__codelineno-4-121" name="__codelineno-4-121"></a>     <span class="c1"># The tax used is the higher of the two calculations</span>
 <a id="__codelineno-4-122" name="__codelineno-4-122"></a>    <span class="k">return</span> <span class="nb">max</span><span class="p">(</span><span class="n">impot_brut_avec_enfants</span><span class="p">,</span> <span class="n">impot_minimal_plafone</span><span class="p">)</span>
 <a id="__codelineno-4-123" name="__codelineno-4-123"></a>
 <a id="__codelineno-4-124" name="__codelineno-4-124"></a>
@@ -1815,15 +1817,15 @@
 <a id="__codelineno-4-132" name="__codelineno-4-132"></a>    <span class="n">seuil_calcul</span> <span class="o">=</span> <span class="n">SEUIL_CALCUL_DECOTE</span><span class="p">[</span><span class="n">statut</span><span class="p">]</span>
 <a id="__codelineno-4-133" name="__codelineno-4-133"></a>
 <a id="__codelineno-4-134" name="__codelineno-4-134"></a>    <span class="n">decote</span> <span class="o">=</span> <span class="mf">0.0</span>
-<a id="__codelineno-4-135" name="__codelineno-4-135"></a>    <span class="c1">#  The discount applies if the tax is below the application threshold</span>
+<a id="__codelineno-4-135" name="__codelineno-4-135"></a>     <span class="c1"># The discount applies if the tax is below the application threshold</span>
 <a id="__codelineno-4-136" name="__codelineno-4-136"></a>    <span class="k">if</span> <span class="n">impot_avant_decote</span> <span class="o">&lt;</span> <span class="n">seuil_application</span><span class="p">:</span>
-<a id="__codelineno-4-137" name="__codelineno-4-137"></a>        <span class="c1">#  Discount formula: threshold - 0.75 * gross tax</span>
+<a id="__codelineno-4-137" name="__codelineno-4-137"></a>         <span class="c1"># Discount formula: threshold - 0.75 * gross tax</span>
 <a id="__codelineno-4-138" name="__codelineno-4-138"></a>        <span class="n">decote_calculee</span> <span class="o">=</span> <span class="n">seuil_calcul</span> <span class="o">-</span> <span class="p">(</span><span class="mf">0.75</span> <span class="o">*</span> <span class="n">impot_avant_decote</span><span class="p">)</span>
 <a id="__codelineno-4-139" name="__codelineno-4-139"></a>
-<a id="__codelineno-4-140" name="__codelineno-4-140"></a>        <span class="c1">#  Rounded up to the nearest euro</span>
+<a id="__codelineno-4-140" name="__codelineno-4-140"></a>         <span class="c1"># Rounded up to the nearest euro</span>
 <a id="__codelineno-4-141" name="__codelineno-4-141"></a>        <span class="n">decote</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">decote_calculee</span><span class="p">)</span>
 <a id="__codelineno-4-142" name="__codelineno-4-142"></a>
-<a id="__codelineno-4-143" name="__codelineno-4-143"></a>        <span class="c1">#  The discount cannot be negative or greater than the tax due</span>
+<a id="__codelineno-4-143" name="__codelineno-4-143"></a>         <span class="c1"># The discount cannot be negative or greater than the tax payable</span>
 <a id="__codelineno-4-144" name="__codelineno-4-144"></a>        <span class="n">decote</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="nb">min</span><span class="p">(</span><span class="n">decote</span><span class="p">,</span> <span class="n">impot_avant_decote</span><span class="p">))</span>
 <a id="__codelineno-4-145" name="__codelineno-4-145"></a>
 <a id="__codelineno-4-146" name="__codelineno-4-146"></a>    <span class="n">impot_apres_decote</span> <span class="o">=</span> <span class="n">impot_avant_decote</span> <span class="o">-</span> <span class="n">decote</span>
@@ -1839,18 +1841,18 @@
 <a id="__codelineno-4-156" name="__codelineno-4-156"></a>    <span class="n">statut</span> <span class="o">=</span> <span class="s2">&quot;couple&quot;</span> <span class="k">if</span> <span class="n">adultes</span> <span class="o">==</span> <span class="mi">2</span> <span class="k">else</span> <span class="s2">&quot;celibataire&quot;</span>
 <a id="__codelineno-4-157" name="__codelineno-4-157"></a>    <span class="n">seuil_base</span> <span class="o">=</span> <span class="n">SEUIL_BASE_REDUCTION_20</span><span class="p">[</span><span class="n">statut</span><span class="p">]</span>
 <a id="__codelineno-4-158" name="__codelineno-4-158"></a>
-<a id="__codelineno-4-159" name="__codelineno-4-159"></a>    <span class="c1">#  The threshold is increased for each half-percentage point for children</span>
+<a id="__codelineno-4-159" name="__codelineno-4-159"></a>     <span class="c1"># The threshold is increased for each half-percentage point for children</span>
 <a id="__codelineno-4-160" name="__codelineno-4-160"></a>    <span class="n">parts_avec_enfants</span> <span class="o">=</span> <span class="n">calculer_nombre_parts</span><span class="p">(</span><span class="n">adultes</span><span class="p">,</span> <span class="n">enfants</span><span class="p">)</span>
 <a id="__codelineno-4-161" name="__codelineno-4-161"></a>    <span class="n">parts_adultes</span> <span class="o">=</span> <span class="n">calculer_nombre_parts</span><span class="p">(</span><span class="n">adultes</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
 <a id="__codelineno-4-162" name="__codelineno-4-162"></a>    <span class="n">demi_parts_enfants</span> <span class="o">=</span> <span class="p">(</span><span class="n">parts_avec_enfants</span> <span class="o">-</span> <span class="n">parts_adultes</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span>
 <a id="__codelineno-4-163" name="__codelineno-4-163"></a>    <span class="n">seuil_final</span> <span class="o">=</span> <span class="n">seuil_base</span> <span class="o">+</span> <span class="p">(</span><span class="n">demi_parts_enfants</span> <span class="o">*</span> <span class="n">MAJORATION_SEUIL_REDUCTION_PAR_DEMI_PART</span><span class="p">)</span>
 <a id="__codelineno-4-164" name="__codelineno-4-164"></a>
 <a id="__codelineno-4-165" name="__codelineno-4-165"></a>    <span class="n">reduction</span> <span class="o">=</span> <span class="mf">0.0</span>
-<a id="__codelineno-4-166" name="__codelineno-4-166"></a>    <span class="c1">#  The reduction applies if taxable income is below the threshold</span>
+<a id="__codelineno-4-166" name="__codelineno-4-166"></a>     <span class="c1"># The reduction applies if taxable income is below the threshold</span>
 <a id="__codelineno-4-167" name="__codelineno-4-167"></a>    <span class="k">if</span> <span class="n">revenu_imposable</span> <span class="o">&lt;</span> <span class="n">seuil_final</span><span class="p">:</span>
 <a id="__codelineno-4-168" name="__codelineno-4-168"></a>        <span class="n">reduction_calculee</span> <span class="o">=</span> <span class="n">impot_avant_reduction</span> <span class="o">*</span> <span class="mf">0.20</span>
 <a id="__codelineno-4-169" name="__codelineno-4-169"></a>
-<a id="__codelineno-4-170" name="__codelineno-4-170"></a>        <span class="c1">#  Rounded up to the nearest euro</span>
+<a id="__codelineno-4-170" name="__codelineno-4-170"></a>         <span class="c1"># Rounded up to the nearest euro</span>
 <a id="__codelineno-4-171" name="__codelineno-4-171"></a>        <span class="n">reduction</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">reduction_calculee</span><span class="p">)</span>
 <a id="__codelineno-4-172" name="__codelineno-4-172"></a>
 <a id="__codelineno-4-173" name="__codelineno-4-173"></a>    <span class="n">impot_apres_reduction</span> <span class="o">=</span> <span class="n">impot_avant_reduction</span> <span class="o">-</span> <span class="n">reduction</span>
@@ -1861,26 +1863,26 @@
 <a id="__codelineno-4-178" name="__codelineno-4-178"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-4-179" name="__codelineno-4-179"></a><span class="sd">    Orchestre le calcul complet de l&#39;impôt net à payer.</span>
 <a id="__codelineno-4-180" name="__codelineno-4-180"></a><span class="sd">    &quot;&quot;&quot;</span>
-<a id="__codelineno-4-181" name="__codelineno-4-181"></a>    <span class="c1">#  Step 1: Calculating taxable income</span>
+<a id="__codelineno-4-181" name="__codelineno-4-181"></a>     <span class="c1"># Step 1: Calculating taxable income</span>
 <a id="__codelineno-4-182" name="__codelineno-4-182"></a>    <span class="n">revenu_imposable</span> <span class="o">=</span> <span class="n">calculer_revenu_imposable</span><span class="p">(</span><span class="n">revenus</span><span class="p">)</span>
 <a id="__codelineno-4-183" name="__codelineno-4-183"></a>
-<a id="__codelineno-4-184" name="__codelineno-4-184"></a>    <span class="c1">#  Step 2: Calculating the number of shares</span>
+<a id="__codelineno-4-184" name="__codelineno-4-184"></a>     <span class="c1"># Step 2: Calculating the number of shares</span>
 <a id="__codelineno-4-185" name="__codelineno-4-185"></a>    <span class="n">nombre_parts</span> <span class="o">=</span> <span class="n">calculer_nombre_parts</span><span class="p">(</span><span class="n">adultes</span><span class="p">,</span> <span class="n">enfants</span><span class="p">)</span>
 <a id="__codelineno-4-186" name="__codelineno-4-186"></a>
-<a id="__codelineno-4-187" name="__codelineno-4-187"></a>    <span class="c1">#  Step 3: Gross tax calculation</span>
+<a id="__codelineno-4-187" name="__codelineno-4-187"></a>     <span class="c1"># Step 3: Gross tax calculation</span>
 <a id="__codelineno-4-188" name="__codelineno-4-188"></a>    <span class="n">impot_brut_initial</span> <span class="o">=</span> <span class="n">calculer_impot_brut_base</span><span class="p">(</span><span class="n">revenu_imposable</span><span class="p">,</span> <span class="n">nombre_parts</span><span class="p">)</span>
 <a id="__codelineno-4-189" name="__codelineno-4-189"></a>
-<a id="__codelineno-4-190" name="__codelineno-4-190"></a>    <span class="c1">#  Step 4: Applying the QF cap</span>
+<a id="__codelineno-4-190" name="__codelineno-4-190"></a>     <span class="c1"># Step 4: Applying the QF cap</span>
 <a id="__codelineno-4-191" name="__codelineno-4-191"></a>    <span class="n">impot_apres_plafonnement</span> <span class="o">=</span> <span class="n">appliquer_plafonnement_qf</span><span class="p">(</span><span class="n">impot_brut_initial</span><span class="p">,</span> <span class="n">revenu_imposable</span><span class="p">,</span> <span class="n">adultes</span><span class="p">,</span> <span class="n">enfants</span><span class="p">)</span>
 <a id="__codelineno-4-192" name="__codelineno-4-192"></a>
-<a id="__codelineno-4-193" name="__codelineno-4-193"></a>    <span class="c1">#  Step 5: Applying the discount</span>
+<a id="__codelineno-4-193" name="__codelineno-4-193"></a>     <span class="c1"># Step 5: Applying the discount</span>
 <a id="__codelineno-4-194" name="__codelineno-4-194"></a>    <span class="n">impot_apres_decote</span><span class="p">,</span> <span class="n">decote_calculee</span> <span class="o">=</span> <span class="n">appliquer_decote</span><span class="p">(</span><span class="n">impot_apres_plafonnement</span><span class="p">,</span> <span class="n">adultes</span><span class="p">)</span>
 <a id="__codelineno-4-195" name="__codelineno-4-195"></a>
-<a id="__codelineno-4-196" name="__codelineno-4-196"></a>    <span class="c1">#  Step 6: Apply the 20% discount</span>
+<a id="__codelineno-4-196" name="__codelineno-4-196"></a>     <span class="c1"># Step 6: Apply the 20% discount</span>
 <a id="__codelineno-4-197" name="__codelineno-4-197"></a>    <span class="n">impot_avant_arrondi_final</span><span class="p">,</span> <span class="n">reduction_calculee</span> <span class="o">=</span> <span class="n">appliquer_reduction_20_pourcent</span><span class="p">(</span><span class="n">impot_apres_decote</span><span class="p">,</span>
 <a id="__codelineno-4-198" name="__codelineno-4-198"></a>                                                                                    <span class="n">revenu_imposable</span><span class="p">,</span> <span class="n">adultes</span><span class="p">,</span> <span class="n">enfants</span><span class="p">)</span>
 <a id="__codelineno-4-199" name="__codelineno-4-199"></a>
-<a id="__codelineno-4-200" name="__codelineno-4-200"></a>    <span class="c1">#  Step 7: Final tax rounding down to the nearest euro</span>
+<a id="__codelineno-4-200" name="__codelineno-4-200"></a>     <span class="c1"># Step 7: Final tax rounding down to the nearest euro</span>
 <a id="__codelineno-4-201" name="__codelineno-4-201"></a>    <span class="n">impot_final</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">impot_avant_arrondi_final</span><span class="p">)</span>
 <a id="__codelineno-4-202" name="__codelineno-4-202"></a>
 <a id="__codelineno-4-203" name="__codelineno-4-203"></a>    <span class="k">return</span> <span class="p">{</span>
@@ -1890,8 +1892,8 @@
 <a id="__codelineno-4-207" name="__codelineno-4-207"></a>    <span class="p">}</span>
 <a id="__codelineno-4-208" name="__codelineno-4-208"></a>
 <a id="__codelineno-4-209" name="__codelineno-4-209"></a>
-<a id="__codelineno-4-210" name="__codelineno-4-210"></a><span class="c1">#  --- TESTS UNITAIRES ---</span>
-<a id="__codelineno-4-211" name="__codelineno-4-211"></a><span class="c1">#  Validation of the script with the cases provided</span>
+<a id="__codelineno-4-210" name="__codelineno-4-210"></a><span class="c1"># --- TESTS UNITAIRES ---</span>
+<a id="__codelineno-4-211" name="__codelineno-4-211"></a><span class="c1"># Validation of the script with the cases provided</span>
 <a id="__codelineno-4-212" name="__codelineno-4-212"></a><span class="k">class</span><span class="w"> </span><span class="nc">TestCalculImpot2019</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
 <a id="__codelineno-4-213" name="__codelineno-4-213"></a>
 <a id="__codelineno-4-214" name="__codelineno-4-214"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">_verifier_resultat</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">adultes</span><span class="p">,</span> <span class="n">enfants</span><span class="p">,</span> <span class="n">revenus</span><span class="p">,</span> <span class="n">impot_attendu</span><span class="p">,</span> <span class="n">decote_attendue</span><span class="p">,</span> <span class="n">reduction_attendue</span><span class="p">):</span>
@@ -1956,7 +1958,7 @@
 <a id="__codelineno-4-273" name="__codelineno-4-273"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Exécution des tests unitaires...&quot;</span><span class="p">)</span>
 <a id="__codelineno-4-274" name="__codelineno-4-274"></a>    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;first-arg-is-ignored&#39;</span><span class="p">],</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 <a id="__codelineno-4-275" name="__codelineno-4-275"></a>
-<a id="__codelineno-4-276" name="__codelineno-4-276"></a>    <span class="c1">#  Example of how to use the calculator for a specific case</span>
+<a id="__codelineno-4-276" name="__codelineno-4-276"></a>     <span class="c1"># Example of how to use the calculator for a specific case</span>
 <a id="__codelineno-4-277" name="__codelineno-4-277"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">--- Exemple de calcul ---&quot;</span><span class="p">)</span>
 <a id="__codelineno-4-278" name="__codelineno-4-278"></a>    <span class="n">revenus_annuels</span> <span class="o">=</span> <span class="mi">50000</span>
 <a id="__codelineno-4-279" name="__codelineno-4-279"></a>    <span class="n">nombre_adultes</span> <span class="o">=</span> <span class="mi">2</span>
@@ -1971,11 +1973,11 @@
 </code></pre></div></td></tr></table></div>
 <p>I haven’t verified this code. Since the 11 unit tests passed, I consider it “probably correct.” I haven’t done anything more for my own code than verifying these 11 tests.</p>
 <h2 id="44-problem-3">4.4. <span style="color: #0f4761">Problem 3</span></h2>
-<p>Problem 3 is identical to Problem 2, except that we no longer provide the AI with the PDF containing the calculation rules to follow.</p>
-<p>The initial question to Gemini is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001CE00000147770C16A7.png" width="139" height="98" style="display:inline-block; margin:4px;width:3.671cm;height:2.598cm;" class="odt-zoomable" data-zoom-src="images/10000000000001CE00000147770C16A7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Problem 3 is identical to Problem 2, except that we no longer provide IA with PDF, which specified the calculation rules to follow.</p>
+<p>The initial query to Gemini is as follows:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001CE00000147770C16A7.png" width="139" height="98" style="display:inline-block; margin:4px;width:3.671cm;height:2.598cm;" class="odt-zoomable" data-zoom-src="images/10000000000001CE00000147770C16A7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>The instructions file in [1] is almost the same as for Problem 2, with the following differences:</p>
+<p>The instruction file in [1] is almost the same as for Problem 2, with the following differences:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content">1 - Exprime-toi en français.</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1992,20 +1994,20 @@
   </li>
 </ul>
 
-<p>Below, I am providing only parts of Gemini’s first answer:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005C600000238566282B9.png" width="443" height="170" style="display:inline-block; margin:4px;width:11.71cm;height:4.5cm;" class="odt-zoomable" data-zoom-src="images/10000000000005C600000238566282B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Below, I am only providing parts of Gemini’s first answer:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005C600000238566282B9.png" width="443" height="170" style="display:inline-block; margin:4px;width:11.71cm;height:4.5cm;" class="odt-zoomable" data-zoom-src="images/10000000000005C600000238566282B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005B800000124B69AB2F6.png" width="438" height="87" style="display:inline-block; margin:4px;width:11.58cm;height:2.311cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B800000124B69AB2F6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005B800000124B69AB2F6.png" width="438" height="87" style="display:inline-block; margin:4px;width:11.58cm;height:2.311cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B800000124B69AB2F6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>The estimated time is plausible. We wait a long time for Gemini’s response.</p>
-<p>As before, Gemini provided a download link for the generated script, but the link does not work. We tell him:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003F8000000EA31429731.png" width="305" height="70" style="display:inline-block; margin:4px;width:8.08cm;height:1.861cm;" class="odt-zoomable" data-zoom-src="images/10000000000003F8000000EA31429731.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>As before, Gemini provided a download link for the generated script, but the link does not work. We tell him so:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003F8000000EA31429731.png" width="305" height="70" style="display:inline-block; margin:4px;width:8.08cm;height:1.861cm;" class="odt-zoomable" data-zoom-src="images/10000000000003F8000000EA31429731.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005E700000338348501BF.png" width="453" height="247" style="display:inline-block; margin:4px;width:11.989cm;height:6.539cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E700000338348501BF.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005E700000338348501BF.png" width="453" height="247" style="display:inline-block; margin:4px;width:11.989cm;height:6.539cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E700000338348501BF.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>We load the script into PyCharm under the name [gemini2]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001F70000024474F0876F.png" width="176" height="203" style="display:inline-block; margin:4px;width:4.66cm;height:5.373cm;" class="odt-zoomable" data-zoom-src="images/10000000000001F70000024474F0876F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001F70000024474F0876F.png" width="176" height="203" style="display:inline-block; margin:4px;width:4.66cm;height:5.373cm;" class="odt-zoomable" data-zoom-src="images/10000000000001F70000024474F0876F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>We run it and… it doesn’t work. The execution logs are as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-python">
@@ -2064,27 +2066,27 @@
 <ul>
   <li>Line 11, a test failed;
   </li>
-  <li>Lines 25 and 42: the same compilation error;
+  <li>Lines 25, 42: the same compilation error;
   </li>
 </ul>
 
 <p>We put these logs into a text file that we give to Gemini:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000037100000160E62E9DEC.png" width="264" height="105" style="display:inline-block; margin:4px;width:6.98cm;height:2.789cm;" class="odt-zoomable" data-zoom-src="images/100000000000037100000160E62E9DEC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000037100000160E62E9DEC.png" width="264" height="105" style="display:inline-block; margin:4px;width:6.98cm;height:2.789cm;" class="odt-zoomable" data-zoom-src="images/100000000000037100000160E62E9DEC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005D900000211468AB27B.png" width="448" height="158" style="display:inline-block; margin:4px;width:11.86cm;height:4.191cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D900000211468AB27B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005D900000211468AB27B.png" width="448" height="158" style="display:inline-block; margin:4px;width:11.86cm;height:4.191cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D900000211468AB27B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005EB0000033F1D6631DD.png" width="454" height="249" style="display:inline-block; margin:4px;width:12cm;height:6.583cm;" class="odt-zoomable" data-zoom-src="images/10000000000005EB0000033F1D6631DD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005EB0000033F1D6631DD.png" width="454" height="249" style="display:inline-block; margin:4px;width:12cm;height:6.583cm;" class="odt-zoomable" data-zoom-src="images/10000000000005EB0000033F1D6631DD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>We load the script into PyCharm and run it. More errors. We tell Gemini, attaching the execution logs again:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000030300000156645F52DA.png" width="232" height="103" style="display:inline-block; margin:4px;width:6.13cm;height:2.718cm;" class="odt-zoomable" data-zoom-src="images/100000000000030300000156645F52DA.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000030300000156645F52DA.png" width="232" height="103" style="display:inline-block; margin:4px;width:6.13cm;height:2.718cm;" class="odt-zoomable" data-zoom-src="images/100000000000030300000156645F52DA.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005B9000001E38506CD84.png" width="437" height="144" style="display:inline-block; margin:4px;width:11.561cm;height:3.812cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B9000001E38506CD84.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005B9000001E38506CD84.png" width="437" height="144" style="display:inline-block; margin:4px;width:11.561cm;height:3.812cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B9000001E38506CD84.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005BA000001A4D4CBC265.png" width="437" height="125" style="display:inline-block; margin:4px;width:11.55cm;height:3.309cm;" class="odt-zoomable" data-zoom-src="images/10000000000005BA000001A4D4CBC265.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005BA000001A4D4CBC265.png" width="437" height="125" style="display:inline-block; margin:4px;width:11.55cm;height:3.309cm;" class="odt-zoomable" data-zoom-src="images/10000000000005BA000001A4D4CBC265.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005FA0000029FA79BFB64.png" width="460" height="202" style="display:inline-block; margin:4px;width:12.16cm;height:5.332cm;" class="odt-zoomable" data-zoom-src="images/10000000000005FA0000029FA79BFB64.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005FA0000029FA79BFB64.png" width="460" height="202" style="display:inline-block; margin:4px;width:12.16cm;height:5.332cm;" class="odt-zoomable" data-zoom-src="images/10000000000005FA0000029FA79BFB64.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>We load this new script into PyCharm and run it. This time, all 11 unit tests pass:</p>
 <p>The code generated by Gemini is as follows:</p>
@@ -2261,12 +2263,12 @@
 <span class="normal"><a href="#__codelineno-5-171">171</a></span>
 <span class="normal"><a href="#__codelineno-5-172">172</a></span>
 <span class="normal"><a href="#__codelineno-5-173">173</a></span>
-<span class="normal"><a href="#__codelineno-5-174">174</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="c1">#  -*- coding: utf-8 -*-</span>
+<span class="normal"><a href="#__codelineno-5-174">174</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="c1"># -*- coding: utf-8 -*-</span>
 <a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
 <a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">unittest</span>
 <a id="__codelineno-5-4" name="__codelineno-5-4"></a>
 <a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="c1"># ==============================================================================</span>
-<a id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="c1">#  CONSTANTES POUR L&#39;IMPOSITION DES REVENUS 2018 (PAYÉE EN 2019)</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="c1"># CONSTANTES POUR L&#39;IMPOSITION DES REVENUS 2018 (PAYÉE EN 2019)</span>
 <a id="__codelineno-5-7" name="__codelineno-5-7"></a><span class="c1"># ==============================================================================</span>
 <a id="__codelineno-5-8" name="__codelineno-5-8"></a><span class="n">BAREME_IMPOT_2019</span> <span class="o">=</span> <span class="p">[</span>
 <a id="__codelineno-5-9" name="__codelineno-5-9"></a>    <span class="p">{</span><span class="s1">&#39;seuil&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;taux&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">},</span>
@@ -2289,7 +2291,7 @@
 <a id="__codelineno-5-26" name="__codelineno-5-26"></a>
 <a id="__codelineno-5-27" name="__codelineno-5-27"></a>
 <a id="__codelineno-5-28" name="__codelineno-5-28"></a><span class="c1"># ==============================================================================</span>
-<a id="__codelineno-5-29" name="__codelineno-5-29"></a><span class="c1">#  FONCTIONS DE CALCUL</span>
+<a id="__codelineno-5-29" name="__codelineno-5-29"></a><span class="c1"># FONCTIONS DE CALCUL</span>
 <a id="__codelineno-5-30" name="__codelineno-5-30"></a><span class="c1"># ==============================================================================</span>
 <a id="__codelineno-5-31" name="__codelineno-5-31"></a>
 <a id="__codelineno-5-32" name="__codelineno-5-32"></a><span class="k">def</span><span class="w"> </span><span class="nf">calculer_nombre_parts</span><span class="p">(</span><span class="n">adultes</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">enfants</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
@@ -2353,16 +2355,16 @@
 <a id="__codelineno-5-90" name="__codelineno-5-90"></a>    <span class="n">impot_brut</span> <span class="o">=</span> <span class="n">calculer_impot_brut_par_tranche</span><span class="p">(</span><span class="n">revenu_imposable</span><span class="p">,</span> <span class="n">nombre_parts</span><span class="p">)</span>
 <a id="__codelineno-5-91" name="__codelineno-5-91"></a>    <span class="n">impot_apres_plafonnement</span> <span class="o">=</span> <span class="n">appliquer_plafonnement_qf</span><span class="p">(</span><span class="n">revenu_imposable</span><span class="p">,</span> <span class="n">nombre_parts</span><span class="p">,</span> <span class="n">adultes</span><span class="p">,</span> <span class="n">impot_brut</span><span class="p">)</span>
 <a id="__codelineno-5-92" name="__codelineno-5-92"></a>
-<a id="__codelineno-5-93" name="__codelineno-5-93"></a>    <span class="c1">#  CORRECTION: If tax is already 0, no discount or reduction.</span>
+<a id="__codelineno-5-93" name="__codelineno-5-93"></a>     <span class="c1"># CORRECTION: If tax is already 0, no discount or reduction.</span>
 <a id="__codelineno-5-94" name="__codelineno-5-94"></a>    <span class="k">if</span> <span class="n">impot_apres_plafonnement</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
 <a id="__codelineno-5-95" name="__codelineno-5-95"></a>        <span class="k">return</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
 <a id="__codelineno-5-96" name="__codelineno-5-96"></a>
-<a id="__codelineno-5-97" name="__codelineno-5-97"></a>    <span class="c1">#  --- LOGIQUE CORRIGÉE POUR INTERACTION DÉCOTE / RÉDUCTION ---</span>
+<a id="__codelineno-5-97" name="__codelineno-5-97"></a>     <span class="c1"># --- LOGIQUE CORRIGÉE POUR INTERACTION DÉCOTE / RÉDUCTION ---</span>
 <a id="__codelineno-5-98" name="__codelineno-5-98"></a>    <span class="n">decote_calculee</span> <span class="o">=</span> <span class="mf">0.0</span>
 <a id="__codelineno-5-99" name="__codelineno-5-99"></a>    <span class="n">reduction_calculee</span> <span class="o">=</span> <span class="mf">0.0</span>
 <a id="__codelineno-5-100" name="__codelineno-5-100"></a>    <span class="n">impot_a_traiter</span> <span class="o">=</span> <span class="n">impot_apres_plafonnement</span>
 <a id="__codelineno-5-101" name="__codelineno-5-101"></a>
-<a id="__codelineno-5-102" name="__codelineno-5-102"></a>    <span class="c1">#  1. Determining eligibility for the 20% discount</span>
+<a id="__codelineno-5-102" name="__codelineno-5-102"></a>     <span class="c1"># 1. Determining eligibility for the 20% discount</span>
 <a id="__codelineno-5-103" name="__codelineno-5-103"></a>    <span class="n">est_eligible_reduction</span> <span class="o">=</span> <span class="kc">False</span>
 <a id="__codelineno-5-104" name="__codelineno-5-104"></a>    <span class="k">if</span> <span class="n">adultes</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
 <a id="__codelineno-5-105" name="__codelineno-5-105"></a>        <span class="n">seuil_rfr</span> <span class="o">=</span> <span class="n">SEUIL_RFR_REDUCTION_COUPLE</span> <span class="o">+</span> <span class="nb">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="p">(</span><span class="n">nombre_parts</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="n">MAJORATION_RFR_REDUCTION_PAR_DEMI_PART</span>
@@ -2372,19 +2374,19 @@
 <a id="__codelineno-5-109" name="__codelineno-5-109"></a>    <span class="k">if</span> <span class="n">revenu_imposable</span> <span class="o">&lt;</span> <span class="n">seuil_rfr</span><span class="p">:</span>
 <a id="__codelineno-5-110" name="__codelineno-5-110"></a>        <span class="n">est_eligible_reduction</span> <span class="o">=</span> <span class="kc">True</span>
 <a id="__codelineno-5-111" name="__codelineno-5-111"></a>
-<a id="__codelineno-5-112" name="__codelineno-5-112"></a>    <span class="c1">#  2. Determining eligibility for the discount</span>
+<a id="__codelineno-5-112" name="__codelineno-5-112"></a>     <span class="c1"># 2. Determining eligibility for the discount</span>
 <a id="__codelineno-5-113" name="__codelineno-5-113"></a>    <span class="n">seuil_decote_foyer</span> <span class="o">=</span> <span class="n">SEUIL_DECOTE_COUPLE</span> <span class="k">if</span> <span class="n">adultes</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="k">else</span> <span class="n">SEUIL_DECOTE_CELIBATAIRE</span>
 <a id="__codelineno-5-114" name="__codelineno-5-114"></a>    <span class="n">reduction_theorique</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">impot_a_traiter</span> <span class="o">*</span> <span class="n">TAUX_REDUCTION_20_POURCENT</span><span class="p">)</span> <span class="k">if</span> <span class="n">est_eligible_reduction</span> <span class="k">else</span> <span class="mi">0</span>
 <a id="__codelineno-5-115" name="__codelineno-5-115"></a>
 <a id="__codelineno-5-116" name="__codelineno-5-116"></a>    <span class="k">if</span> <span class="p">(</span><span class="n">impot_a_traiter</span> <span class="o">-</span> <span class="n">reduction_theorique</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">seuil_decote_foyer</span><span class="p">:</span>
 <a id="__codelineno-5-117" name="__codelineno-5-117"></a>        <span class="n">decote_calculee</span> <span class="o">=</span> <span class="n">seuil_decote_foyer</span> <span class="o">-</span> <span class="p">(</span><span class="n">impot_a_traiter</span> <span class="o">*</span> <span class="n">COEFFICIENT_DECOTE</span><span class="p">)</span>
 <a id="__codelineno-5-118" name="__codelineno-5-118"></a>        <span class="n">decote_calculee</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">decote_calculee</span><span class="p">)</span>
-<a id="__codelineno-5-119" name="__codelineno-5-119"></a>        <span class="c1">#  CORRECTION: The discount returned cannot exceed the tax it cancels out</span>
+<a id="__codelineno-5-119" name="__codelineno-5-119"></a>         <span class="c1"># CORRECTION: The discount returned cannot exceed the tax it cancels out</span>
 <a id="__codelineno-5-120" name="__codelineno-5-120"></a>        <span class="n">decote_calculee</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">decote_calculee</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">impot_a_traiter</span><span class="p">))</span>
 <a id="__codelineno-5-121" name="__codelineno-5-121"></a>        <span class="n">impot_a_traiter</span> <span class="o">-=</span> <span class="n">decote_calculee</span>
 <a id="__codelineno-5-122" name="__codelineno-5-122"></a>        <span class="n">impot_a_traiter</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">impot_a_traiter</span><span class="p">)</span>
 <a id="__codelineno-5-123" name="__codelineno-5-123"></a>
-<a id="__codelineno-5-124" name="__codelineno-5-124"></a>    <span class="c1">#  3. Apply the 20% discount if eligible</span>
+<a id="__codelineno-5-124" name="__codelineno-5-124"></a>     <span class="c1"># 3. Apply the 20% discount if eligible</span>
 <a id="__codelineno-5-125" name="__codelineno-5-125"></a>    <span class="k">if</span> <span class="n">est_eligible_reduction</span><span class="p">:</span>
 <a id="__codelineno-5-126" name="__codelineno-5-126"></a>        <span class="n">reduction_calculee</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">impot_a_traiter</span> <span class="o">*</span> <span class="n">TAUX_REDUCTION_20_POURCENT</span><span class="p">)</span>
 <a id="__codelineno-5-127" name="__codelineno-5-127"></a>        <span class="n">impot_a_traiter</span> <span class="o">-=</span> <span class="n">reduction_calculee</span>
@@ -2396,7 +2398,7 @@
 <a id="__codelineno-5-133" name="__codelineno-5-133"></a>
 <a id="__codelineno-5-134" name="__codelineno-5-134"></a>
 <a id="__codelineno-5-135" name="__codelineno-5-135"></a><span class="c1"># ==============================================================================</span>
-<a id="__codelineno-5-136" name="__codelineno-5-136"></a><span class="c1">#  TESTS UNITAIRES</span>
+<a id="__codelineno-5-136" name="__codelineno-5-136"></a><span class="c1"># TESTS UNITAIRES</span>
 <a id="__codelineno-5-137" name="__codelineno-5-137"></a><span class="c1"># ==============================================================================</span>
 <a id="__codelineno-5-138" name="__codelineno-5-138"></a>
 <a id="__codelineno-5-139" name="__codelineno-5-139"></a><span class="k">class</span><span class="w"> </span><span class="nc">TestCalculImpot2019</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
@@ -2438,114 +2440,114 @@
 </code></pre></div></td></tr></table></div>
 <p>Again, I haven’t inspected this code. I simply noted that it passed all 11 tests successfully.</p>
 <p>But one might be curious to know its reasoning, particularly for specific cases in tax calculation. Let’s ask it:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003CB000000CDDF9AF177.png" width="292" height="62" style="display:inline-block; margin:4px;width:7.721cm;height:1.63cm;" class="odt-zoomable" data-zoom-src="images/10000000000003CB000000CDDF9AF177.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003CB000000CDDF9AF177.png" width="292" height="62" style="display:inline-block; margin:4px;width:7.721cm;height:1.63cm;" class="odt-zoomable" data-zoom-src="images/10000000000003CB000000CDDF9AF177.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>This is a high-income case with both a possible 10% deduction cap and a possible family quotient cap.</p>
 <p>Gemini’s response is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005C000000296BD44A7B9.png" width="443" height="199" style="display:inline-block; margin:4px;width:11.719cm;height:5.271cm;" class="odt-zoomable" data-zoom-src="images/10000000000005C000000296BD44A7B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005C000000296BD44A7B9.png" width="443" height="199" style="display:inline-block; margin:4px;width:11.719cm;height:5.271cm;" class="odt-zoomable" data-zoom-src="images/10000000000005C000000296BD44A7B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005C000000296BD44A7B9.png" width="443" height="199" style="display:inline-block; margin:4px;width:11.719cm;height:5.271cm;" class="odt-zoomable" data-zoom-src="images/10000000000005C000000296BD44A7B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005C000000296BD44A7B9.png" width="443" height="199" style="display:inline-block; margin:4px;width:11.719cm;height:5.271cm;" class="odt-zoomable" data-zoom-src="images/10000000000005C000000296BD44A7B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003A6000000FB2E572863.png" width="280" height="75" style="display:inline-block; margin:4px;width:7.41cm;height:1.991cm;" class="odt-zoomable" data-zoom-src="images/10000000000003A6000000FB2E572863.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003A6000000FB2E572863.png" width="280" height="75" style="display:inline-block; margin:4px;width:7.41cm;height:1.991cm;" class="odt-zoomable" data-zoom-src="images/10000000000003A6000000FB2E572863.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000059F000002965EFBAB46.png" width="432" height="199" style="display:inline-block; margin:4px;width:11.43cm;height:5.258cm;" class="odt-zoomable" data-zoom-src="images/100000000000059F000002965EFBAB46.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000059F000002965EFBAB46.png" width="432" height="199" style="display:inline-block; margin:4px;width:11.43cm;height:5.258cm;" class="odt-zoomable" data-zoom-src="images/100000000000059F000002965EFBAB46.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004DB000002281DFB8BA9.png" width="375" height="166" style="display:inline-block; margin:4px;width:9.91cm;height:4.401cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DB000002281DFB8BA9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004DB000002281DFB8BA9.png" width="375" height="166" style="display:inline-block; margin:4px;width:9.91cm;height:4.401cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DB000002281DFB8BA9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>These last two screenshots are interesting. Gemini uses a calculation method different from the one explained in the PDF. This calculation method can indeed be found online. The two methods are equivalent.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005A60000030492F1EFB5.png" width="432" height="231" style="display:inline-block; margin:4px;width:11.43cm;height:6.101cm;" class="odt-zoomable" data-zoom-src="images/10000000000005A60000030492F1EFB5.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>These last two screenshots are interesting. Gemini uses a calculation method different from the one explained in PDF. This calculation method can indeed be found online. The two methods are equivalent.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005A60000030492F1EFB5.png" width="432" height="231" style="display:inline-block; margin:4px;width:11.43cm;height:6.101cm;" class="odt-zoomable" data-zoom-src="images/10000000000005A60000030492F1EFB5.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000060100000389755C6646.png" width="460" height="271" style="display:inline-block; margin:4px;width:12.16cm;height:7.16cm;" class="odt-zoomable" data-zoom-src="images/100000000000060100000389755C6646.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000060100000389755C6646.png" width="460" height="271" style="display:inline-block; margin:4px;width:12.16cm;height:7.16cm;" class="odt-zoomable" data-zoom-src="images/100000000000060100000389755C6646.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005BF0000008EDB839B7F.png" width="442" height="43" style="display:inline-block; margin:4px;width:11.7cm;height:1.129cm;" class="odt-zoomable" data-zoom-src="images/10000000000005BF0000008EDB839B7F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005BF0000008EDB839B7F.png" width="442" height="43" style="display:inline-block; margin:4px;width:11.7cm;height:1.129cm;" class="odt-zoomable" data-zoom-src="images/10000000000005BF0000008EDB839B7F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>The explanation is remarkably clear. It could be given as is to students to explain the tax calculation method.</p>
 <p>Now let’s take another example, this time with low income. In this case, there may be a tax credit and a reduction:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000415000000F040474052.png" width="314" height="72" style="display:inline-block; margin:4px;width:8.32cm;height:1.91cm;" class="odt-zoomable" data-zoom-src="images/1000000000000415000000F040474052.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000415000000F040474052.png" width="314" height="72" style="display:inline-block; margin:4px;width:8.32cm;height:1.91cm;" class="odt-zoomable" data-zoom-src="images/1000000000000415000000F040474052.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000060B00000180A9BB231F.png" width="466" height="116" style="display:inline-block; margin:4px;width:12.33cm;height:3.06cm;" class="odt-zoomable" data-zoom-src="images/100000000000060B00000180A9BB231F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000060B00000180A9BB231F.png" width="466" height="116" style="display:inline-block; margin:4px;width:12.33cm;height:3.06cm;" class="odt-zoomable" data-zoom-src="images/100000000000060B00000180A9BB231F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005E1000001F990D4EEB1.png" width="454" height="152" style="display:inline-block; margin:4px;width:12.01cm;height:4.03cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E1000001F990D4EEB1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005E1000001F990D4EEB1.png" width="454" height="152" style="display:inline-block; margin:4px;width:12.01cm;height:4.03cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E1000001F990D4EEB1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000033500000178E47E7A07.png" width="247" height="113" style="display:inline-block; margin:4px;width:6.53cm;height:2.992cm;" class="odt-zoomable" data-zoom-src="images/100000000000033500000178E47E7A07.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000033500000178E47E7A07.png" width="247" height="113" style="display:inline-block; margin:4px;width:6.53cm;height:2.992cm;" class="odt-zoomable" data-zoom-src="images/100000000000033500000178E47E7A07.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005D30000035E1B76539B.png" width="448" height="259" style="display:inline-block; margin:4px;width:11.85cm;height:6.851cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D30000035E1B76539B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005D30000035E1B76539B.png" width="448" height="259" style="display:inline-block; margin:4px;width:11.85cm;height:6.851cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D30000035E1B76539B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005B200000248B0E063BD.png" width="437" height="175" style="display:inline-block; margin:4px;width:11.561cm;height:4.63cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B200000248B0E063BD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005B200000248B0E063BD.png" width="437" height="175" style="display:inline-block; margin:4px;width:11.561cm;height:4.63cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B200000248B0E063BD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Here, we see that Gemini applies a rule that is not in the PDF. He probably found it online, but is the source reliable?</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000585000002521BC6988A.png" width="422" height="177" style="display:inline-block; margin:4px;width:11.16cm;height:4.69cm;" class="odt-zoomable" data-zoom-src="images/1000000000000585000002521BC6988A.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Here, we see that Gemini applies a rule that is not in PDF. It probably found it online, but is the source reliable?</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000585000002521BC6988A.png" width="422" height="177" style="display:inline-block; margin:4px;width:11.16cm;height:4.69cm;" class="odt-zoomable" data-zoom-src="images/1000000000000585000002521BC6988A.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Here, Gemini continues to apply an unknown rule (the special rule mentioned above).</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000593000001E382ED0975.png" width="427" height="144" style="display:inline-block; margin:4px;width:11.291cm;height:3.822cm;" class="odt-zoomable" data-zoom-src="images/1000000000000593000001E382ED0975.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000593000001E382ED0975.png" width="427" height="144" style="display:inline-block; margin:4px;width:11.291cm;height:3.822cm;" class="odt-zoomable" data-zoom-src="images/1000000000000593000001E382ED0975.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005800000016726EA43CA.png" width="423" height="108" style="display:inline-block; margin:4px;width:11.18cm;height:2.85cm;" class="odt-zoomable" data-zoom-src="images/10000000000005800000016726EA43CA.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005800000016726EA43CA.png" width="423" height="108" style="display:inline-block; margin:4px;width:11.18cm;height:2.85cm;" class="odt-zoomable" data-zoom-src="images/10000000000005800000016726EA43CA.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005DA000002BD4B2FC856.png" width="448" height="210" style="display:inline-block; margin:4px;width:11.86cm;height:5.549cm;" class="odt-zoomable" data-zoom-src="images/10000000000005DA000002BD4B2FC856.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005DA000002BD4B2FC856.png" width="448" height="210" style="display:inline-block; margin:4px;width:11.86cm;height:5.549cm;" class="odt-zoomable" data-zoom-src="images/10000000000005DA000002BD4B2FC856.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>So Gemini’s results match those of the official tax simulator. But it used a rule not found in the PDF. Where is the error? We ask Gemini, attaching the PDF:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000416000001EF5AA156F3.png" width="314" height="149" style="display:inline-block; margin:4px;width:8.31cm;height:3.933cm;" class="odt-zoomable" data-zoom-src="images/1000000000000416000001EF5AA156F3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>So Gemini’s results match those of the official tax simulator. But it used a rule not found in PDF. Where is the error? We ask them this by attaching PDF:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000416000001EF5AA156F3.png" width="314" height="149" style="display:inline-block; margin:4px;width:8.31cm;height:3.933cm;" class="odt-zoomable" data-zoom-src="images/1000000000000416000001EF5AA156F3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005D3000001EFCF8D7D70.png" width="449" height="149" style="display:inline-block; margin:4px;width:11.869cm;height:3.941cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D3000001EFCF8D7D70.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005D3000001EFCF8D7D70.png" width="449" height="149" style="display:inline-block; margin:4px;width:11.869cm;height:3.941cm;" class="odt-zoomable" data-zoom-src="images/10000000000005D3000001EFCF8D7D70.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000588000002B318948C16.png" width="427" height="208" style="display:inline-block; margin:4px;width:11.291cm;height:5.51cm;" class="odt-zoomable" data-zoom-src="images/1000000000000588000002B318948C16.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000588000002B318948C16.png" width="427" height="208" style="display:inline-block; margin:4px;width:11.291cm;height:5.51cm;" class="odt-zoomable" data-zoom-src="images/1000000000000588000002B318948C16.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000597000002E3FB545528.png" width="427" height="220" style="display:inline-block; margin:4px;width:11.291cm;height:5.831cm;" class="odt-zoomable" data-zoom-src="images/1000000000000597000002E3FB545528.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000597000002E3FB545528.png" width="427" height="220" style="display:inline-block; margin:4px;width:11.291cm;height:5.831cm;" class="odt-zoomable" data-zoom-src="images/1000000000000597000002E3FB545528.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005E30000035B9C2D196E.png" width="454" height="259" style="display:inline-block; margin:4px;width:12cm;height:6.84cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E30000035B9C2D196E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005E30000035B9C2D196E.png" width="454" height="259" style="display:inline-block; margin:4px;width:12cm;height:6.84cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E30000035B9C2D196E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>I think Gemini is right and that my PDF is incorrect. To verify this, I ask him to run a test:</p>
 <ul>
-  <li>Where his reasoning would yield the same results as the official tax simulator;
+  <li>Where their reasoning would yield the same results as the official tax simulator;
   </li>
-  <li>Where the reasoning in the PDF would give results different from those of the simulator;
+  <li>Where the reasoning in PDF would give results different from those of the simulator;
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000405000000FB47B49A7E.png" width="308" height="75" style="display:inline-block; margin:4px;width:8.16cm;height:1.99cm;" class="odt-zoomable" data-zoom-src="images/1000000000000405000000FB47B49A7E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000405000000FB47B49A7E.png" width="308" height="75" style="display:inline-block; margin:4px;width:8.16cm;height:1.99cm;" class="odt-zoomable" data-zoom-src="images/1000000000000405000000FB47B49A7E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Gemini’s response is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005870000030B9E34F7FD.png" width="427" height="235" style="display:inline-block; margin:4px;width:11.299cm;height:6.219cm;" class="odt-zoomable" data-zoom-src="images/10000000000005870000030B9E34F7FD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Gemini&#x27;s response is as follows:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005870000030B9E34F7FD.png" width="427" height="235" style="display:inline-block; margin:4px;width:11.299cm;height:6.219cm;" class="odt-zoomable" data-zoom-src="images/10000000000005870000030B9E34F7FD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Here Gemini is wrong. I ran the simulator on this example and found the following:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004FE000001EE9E9F7013.png" width="382" height="148" style="display:inline-block; margin:4px;width:10.111cm;height:3.909cm;" class="odt-zoomable" data-zoom-src="images/10000000000004FE000001EE9E9F7013.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004FE000001EE9E9F7013.png" width="382" height="148" style="display:inline-block; margin:4px;width:10.111cm;height:3.909cm;" class="odt-zoomable" data-zoom-src="images/10000000000004FE000001EE9E9F7013.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>However, we’ll see that Gemini’s reasoning does indeed yield the results above. Let’s continue:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000043600000223A23C8B0F.png" width="323" height="164" style="display:inline-block; margin:4px;width:8.55cm;height:4.337cm;" class="odt-zoomable" data-zoom-src="images/100000000000043600000223A23C8B0F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000043600000223A23C8B0F.png" width="323" height="164" style="display:inline-block; margin:4px;width:8.55cm;height:4.337cm;" class="odt-zoomable" data-zoom-src="images/100000000000043600000223A23C8B0F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000054000000162207630C3.png" width="403" height="106" style="display:inline-block; margin:4px;width:10.67cm;height:2.81cm;" class="odt-zoomable" data-zoom-src="images/100000000000054000000162207630C3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000054000000162207630C3.png" width="403" height="106" style="display:inline-block; margin:4px;width:10.67cm;height:2.81cm;" class="odt-zoomable" data-zoom-src="images/100000000000054000000162207630C3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005AA000001A6A3444CFA.png" width="438" height="127" style="display:inline-block; margin:4px;width:11.58cm;height:3.371cm;" class="odt-zoomable" data-zoom-src="images/10000000000005AA000001A6A3444CFA.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005AA000001A6A3444CFA.png" width="438" height="127" style="display:inline-block; margin:4px;width:11.58cm;height:3.371cm;" class="odt-zoomable" data-zoom-src="images/10000000000005AA000001A6A3444CFA.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000056C0000012CDC351913.png" width="418" height="90" style="display:inline-block; margin:4px;width:11.06cm;height:2.39cm;" class="odt-zoomable" data-zoom-src="images/100000000000056C0000012CDC351913.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000056C0000012CDC351913.png" width="418" height="90" style="display:inline-block; margin:4px;width:11.06cm;height:2.39cm;" class="odt-zoomable" data-zoom-src="images/100000000000056C0000012CDC351913.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Very well. Noted. Let’s continue:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003FE00000195A7D13560.png" width="306" height="121" style="display:inline-block; margin:4px;width:8.1cm;height:3.21cm;" class="odt-zoomable" data-zoom-src="images/10000000000003FE00000195A7D13560.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003FE00000195A7D13560.png" width="306" height="121" style="display:inline-block; margin:4px;width:8.1cm;height:3.21cm;" class="odt-zoomable" data-zoom-src="images/10000000000003FE00000195A7D13560.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000058F000001E583770344.png" width="427" height="146" style="display:inline-block; margin:4px;width:11.299cm;height:3.851cm;" class="odt-zoomable" data-zoom-src="images/100000000000058F000001E583770344.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000058F000001E583770344.png" width="427" height="146" style="display:inline-block; margin:4px;width:11.299cm;height:3.851cm;" class="odt-zoomable" data-zoom-src="images/100000000000058F000001E583770344.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005BE000002CD1B027AA5.png" width="443" height="216" style="display:inline-block; margin:4px;width:11.71cm;height:5.711cm;" class="odt-zoomable" data-zoom-src="images/10000000000005BE000002CD1B027AA5.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005BE000002CD1B027AA5.png" width="443" height="216" style="display:inline-block; margin:4px;width:11.71cm;height:5.711cm;" class="odt-zoomable" data-zoom-src="images/10000000000005BE000002CD1B027AA5.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000063D00000236E17EB418.png" width="478" height="169" style="display:inline-block; margin:4px;width:12.64cm;height:4.48cm;" class="odt-zoomable" data-zoom-src="images/100000000000063D00000236E17EB418.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000063D00000236E17EB418.png" width="478" height="169" style="display:inline-block; margin:4px;width:12.64cm;height:4.48cm;" class="odt-zoomable" data-zoom-src="images/100000000000063D00000236E17EB418.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>So Gemini found (tax, discount, reduction) = (431, 325, 1296), whereas the simulator I used gives (431, 324, 1297). So Gemini found the correct results to within 1 euro, but it doesn’t know it. We tell it:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000409000001164220E9AB.png" width="310" height="83" style="display:inline-block; margin:4px;width:8.209cm;height:2.208cm;" class="odt-zoomable" data-zoom-src="images/1000000000000409000001164220E9AB.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000409000001164220E9AB.png" width="310" height="83" style="display:inline-block; margin:4px;width:8.209cm;height:2.208cm;" class="odt-zoomable" data-zoom-src="images/1000000000000409000001164220E9AB.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini responds:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000591000002752BC84F39.png" width="427" height="189" style="display:inline-block; margin:4px;width:11.31cm;height:4.992cm;" class="odt-zoomable" data-zoom-src="images/1000000000000591000002752BC84F39.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000591000002752BC84F39.png" width="427" height="189" style="display:inline-block; margin:4px;width:11.31cm;height:4.992cm;" class="odt-zoomable" data-zoom-src="images/1000000000000591000002752BC84F39.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005980000017F4E8B85A2.png" width="432" height="116" style="display:inline-block; margin:4px;width:11.441cm;height:3.06cm;" class="odt-zoomable" data-zoom-src="images/10000000000005980000017F4E8B85A2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005980000017F4E8B85A2.png" width="432" height="116" style="display:inline-block; margin:4px;width:11.441cm;height:3.06cm;" class="odt-zoomable" data-zoom-src="images/10000000000005980000017F4E8B85A2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Now, we wonder if Gemini could generate a corrected PDF:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003E6000001080BB60B4D.png" width="300" height="79" style="display:inline-block; margin:4px;width:7.939cm;height:2.101cm;" class="odt-zoomable" data-zoom-src="images/10000000000003E6000001080BB60B4D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003E6000001080BB60B4D.png" width="300" height="79" style="display:inline-block; margin:4px;width:7.939cm;height:2.101cm;" class="odt-zoomable" data-zoom-src="images/10000000000003E6000001080BB60B4D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Gemini’s response:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005A1000001BE18243C92.png" width="432" height="134" style="display:inline-block; margin:4px;width:11.441cm;height:3.54cm;" class="odt-zoomable" data-zoom-src="images/10000000000005A1000001BE18243C92.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005A1000001BE18243C92.png" width="432" height="134" style="display:inline-block; margin:4px;width:11.441cm;height:3.54cm;" class="odt-zoomable" data-zoom-src="images/10000000000005A1000001BE18243C92.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>So Gemini didn’t give me a link to a PDF, but it generated text so I could create the PDF myself. Although it’s cumbersome to include screenshots of the PDF here, I’m doing so to show readers the generative aspect of AI:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002420000027B7881D51E.png" width="173" height="191" style="display:inline-block; margin:4px;width:4.59cm;height:5.043cm;" class="odt-zoomable" data-zoom-src="images/10000000000002420000027B7881D51E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>So Gemini didn’t give me a link to a PDF, but it generated text for me to generate this PDF myself. Although it’s cumbersome to include the screenshots of the PDF here, I’m doing so so that the reader can see the generative aspect of the IA:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002420000027B7881D51E.png" width="173" height="191" style="display:inline-block; margin:4px;width:4.59cm;height:5.043cm;" class="odt-zoomable" data-zoom-src="images/10000000000002420000027B7881D51E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p><img src="images/10000000000004F800000370F7E223F9.png" width="382" height="264" style="width:10.1cm;height:6.987cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004F800000370F7E223F9.png" /></p>
 <p><img src="images/1000000000000505000002376BAB1040.png" width="386" height="170" style="width:10.22cm;height:4.51cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000505000002376BAB1040.png" /></p>
@@ -2560,14 +2562,14 @@
 <p><img src="images/1000000000000406000001290E25B2C4.png" width="310" height="89" style="width:8.19cm;height:2.362cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000406000001290E25B2C4.png" /></p>
 <p><img src="images/1000000000000524000003C5ABCF322B.png" width="394" height="289" style="width:10.43cm;height:7.648cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000524000003C5ABCF322B.png" /></p>
 <p><img src="images/10000000000004F5000002BC88AFDE39.png" width="382" height="211" style="width:10.111cm;height:5.577cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004F5000002BC88AFDE39.png" /></p>
-<p>To be honest, I haven&#x27;t checked whether everything in this PDF is true. In any case, it&#x27;s a perfect document for a tutorial, generated in just a few seconds.</p>
-<p>However, we can have Gemini itself verify that its PDF is correct. We start a new conversation:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003B3000001559B479E5C.png" width="285" height="102" style="display:inline-block; margin:4px;width:7.53cm;height:2.711cm;" class="odt-zoomable" data-zoom-src="images/10000000000003B3000001559B479E5C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Honestly, I haven’t verified whether everything stated in this PDF is true. In any case, it’s a perfect document for a TD, generated in a matter of seconds.</p>
+<p>Nevertheless, we can have Gemini itself verify that its PDF is correct. We start a new conversation:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003B3000001559B479E5C.png" width="285" height="102" style="display:inline-block; margin:4px;width:7.53cm;height:2.711cm;" class="odt-zoomable" data-zoom-src="images/10000000000003B3000001559B479E5C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
-  <li>in [1], we included the PDF generated by Gemini [The Problem According to Gemini.pdf];
+  <li>in [1], we included the PDF generated by Gemini [Le problème selon Gemini.pdf];
   </li>
-  <li>in [2], [instructionsWithPDF2.txt] is identical to the instructions in [instructionsWithPDF.txt], except that we’ve added a twelfth unit test—the very one that showed the initial PDF was incorrect:
+  <li>in [2], [instructionsAvecPDF2.txt] is identical to the instructions in [instructionsAvecPDF.txt], except that we added a twelfth unit test—the very one that showed that the initial PDF was incorrect:
   </li>
 </ul>
 
@@ -2575,23 +2577,23 @@
 </code></pre></div></td></tr></table></div>
 <p>Curiously, it took several back-and-forth iterations before Gemini generated the correct script:</p>
 <p>Question 2</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003FD000000CDD0816227.png" width="307" height="62" style="display:inline-block; margin:4px;width:8.119cm;height:1.63cm;" class="odt-zoomable" data-zoom-src="images/10000000000003FD000000CDD0816227.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003FD000000CDD0816227.png" width="307" height="62" style="display:inline-block; margin:4px;width:8.119cm;height:1.63cm;" class="odt-zoomable" data-zoom-src="images/10000000000003FD000000CDD0816227.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Question 3</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000264000001632B56E6B4.png" width="184" height="107" style="display:inline-block; margin:4px;width:4.86cm;height:2.819cm;" class="odt-zoomable" data-zoom-src="images/1000000000000264000001632B56E6B4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000264000001632B56E6B4.png" width="184" height="107" style="display:inline-block; margin:4px;width:4.86cm;height:2.819cm;" class="odt-zoomable" data-zoom-src="images/1000000000000264000001632B56E6B4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>As has been done several times now, when the script generated and loaded into PyCharm fails, we provide Gemini with the text file containing the execution logs. Gemini understands them very well.</p>
 <p>Question 4</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000023A0000015C35998FBC.png" width="171" height="104" style="display:inline-block; margin:4px;width:4.521cm;height:2.76cm;" class="odt-zoomable" data-zoom-src="images/100000000000023A0000015C35998FBC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000023A0000015C35998FBC.png" width="171" height="104" style="display:inline-block; margin:4px;width:4.521cm;height:2.76cm;" class="odt-zoomable" data-zoom-src="images/100000000000023A0000015C35998FBC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Question 5</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000020800000163BA5E81D1.png" width="156" height="107" style="display:inline-block; margin:4px;width:4.129cm;height:2.819cm;" class="odt-zoomable" data-zoom-src="images/100000000000020800000163BA5E81D1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000020800000163BA5E81D1.png" width="156" height="107" style="display:inline-block; margin:4px;width:4.129cm;height:2.819cm;" class="odt-zoomable" data-zoom-src="images/100000000000020800000163BA5E81D1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Question 6 and conclusion</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000063E000002448A0217B7.png" width="399" height="145" style="display:inline-block; margin:4px;width:10.56cm;height:3.833cm;" class="odt-zoomable" data-zoom-src="images/100000000000063E000002448A0217B7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000022200000305A3DB8DAC.png" width="164" height="232" style="display:inline-block; margin:4px;width:4.339cm;height:6.144cm;" class="odt-zoomable" data-zoom-src="images/100000000000022200000305A3DB8DAC.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000063E000002448A0217B7.png" width="399" height="145" style="display:inline-block; margin:4px;width:10.56cm;height:3.833cm;" class="odt-zoomable" data-zoom-src="images/100000000000063E000002448A0217B7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000022200000305A3DB8DAC.png" width="164" height="232" style="display:inline-block; margin:4px;width:4.339cm;height:6.144cm;" class="odt-zoomable" data-zoom-src="images/100000000000022200000305A3DB8DAC.png" /></td></tr></table>
 
 <p>We are now confident in the validity of the PDF generated by Gemini. The calculation rules provided therein are correct.</p>
-<p>We will now do the same for the other five AIs, but we will keep our explanations very brief, except for ChatGPT, the current leader in AI. What interests us is whether or not the AI solves the three problems we present to it. In fact, the interfaces of all these AIs are very similar, and I proceeded with them in the same way as with Gemini. Readers are encouraged to replay the Gemini conversations with the AI of their choice.</p>
+<p>We will now do the same for the other five IA files, but we will keep our explanations very brief, except for ChatGPT, the current leader among the IA files. What interests us is whether or not the IA solves the three problems we pose to it. In fact, the interfaces of all these IA are very similar, and I proceeded with them as I did with Gemini. Readers are encouraged to replay the Gemini conversations with the IA of their choice.</p>
 
 
 
